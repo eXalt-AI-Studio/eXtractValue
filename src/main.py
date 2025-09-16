@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 import json
 from llm import call_llm
 from llm_text import call_llm_text
+from llm_ocr import call_llm_ocr
 
 load_dotenv()
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -57,12 +58,15 @@ def read_pdfs_in_folder(folder):
 					text += page.extract_text() or ""
 			except Exception as e:
 				print(f"Error reading {filename}: {e}")
+			text_ocr = call_llm_ocr(file_path)
+			print(f"OCR Text from {filename}:")
+			print(text_ocr[0])
 			extract_key_data_with_pdf(file_path)
 			extract_key_data_with_text(text)
-	return text, file_path
+			extract_key_data_with_text(text_ocr[0])
+	return text, text_ocr, file_path
 
-if __name__ == "__main__":
-	
+if __name__ == "__main__":	
 	data_folder = os.path.join(os.path.dirname(__file__), '../data')
-	text, file_path = read_pdfs_in_folder(data_folder)
+	text, text_ocr, file_path = read_pdfs_in_folder(data_folder)
 
