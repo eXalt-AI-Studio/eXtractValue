@@ -32,12 +32,17 @@
         },
         "Durée (années)": {
             "type": "integer"
+        },
+        "Résumé (250 caractères)": {
+            "type": "string"
         }
     },
     "required": [
         "Bailleur",
         "Locataire",
-        "Loyer annuel (euros)"
+        "Loyer annuel (euros)",
+        "Durée (années)",
+        "Date de début"
     ],
     "additionalProperties": false
 }

@@ -53,7 +53,7 @@ def call_llm_ocr(
         {
             "id": "file-parser",
             "pdf": {
-                "engine": "mistral-ocr"
+                "engine": "pdf-text"
             }
         }
     ]
@@ -72,14 +72,20 @@ def call_llm_ocr(
     response = requests.post(
         "https://openrouter.ai/api/v1/chat/completions",
         headers=headers,
-        json=payload,
+        json=payload
     )
 
-    resp = response.json()
+    try:
+        resp = response.json()
+    except Exception as e:
+        print("Error decoding JSON response:", e)
+        print("Raw response text:\n", response.text)
+        raise RuntimeError(f"LLM request failed: Could not decode JSON. Raw response: {response.text}")
     if response.status_code != 200:
         raise RuntimeError(f"LLM request failed: {resp}")
 
     content = resp["choices"][0]["message"]["content"]
+    json_response = json.loads(content)
     usage = resp.get("usage", {})
-    
-    return content, usage
+
+    return json_response, usage

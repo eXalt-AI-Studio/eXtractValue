@@ -3,39 +3,12 @@ import pandas as pd
 from datetime import datetime
 
 # Load data from CSV
-df = pd.read_csv('output/output_pdf.csv')
+df = pd.read_csv('output/output_text.csv')
 
-# Compute expected rents per year
-def get_annual_rents(df):
-    results = []
-    for idx, row in df.iterrows():
-        start = pd.to_datetime(row["Date de début"])
-        end = pd.to_datetime(row["Date d'expiration"])
-        duration = row["Durée (années)"]
-        rent = row["Loyer annuel (euros)"]
-        landlord = row["Bailleur"]
-        tenant = row["Locataire"]
-        address = row["Adresse location"]
-        city = row["Ville location"]
-        for year in range(start.year, end.year + 1):
-            # Determine the amount for partial years
-            if year == start.year:
-                months = 12 - start.month + 1
-            elif year == end.year:
-                months = end.month
-            else:
-                months = 12
-            annual_rent = (rent / 12) * months
-            results.append({
-                'Year': year,
-                'Landlord': landlord,
-                'Tenant': tenant,
-                'Address': address,
-                'City': city,
-                'Expected Rent (€)': annual_rent
-            })
-    return pd.DataFrame(results)
 
-st.title('Expected Rents per Year')
-annual_rents = get_annual_rents(df)
-st.dataframe(annual_rents)
+header_col1, header_col2 = st.columns([1, 8])
+with header_col1:
+    st.image("src/images/logo-exalt-2.png", width=170)
+with header_col2:
+    st.markdown("<h1 style='color: #5853FF; margin: 0;'>Extraction des données des Baux Commerciaux</h1>", unsafe_allow_html=True)
+
