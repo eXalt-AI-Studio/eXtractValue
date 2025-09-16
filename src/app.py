@@ -51,12 +51,18 @@ with tab1:
                 st.error(f"Error displaying PDF: {e}")
     with col2:
         st.subheader("Données Clées Extraites:")
-        # Display as key-value pairs (vertical)
         if not filtered_df.empty:
             record = filtered_df.iloc[0].to_dict()
             for key, value in record.items():
                 if key == 'filename':
                     continue
-                st.write(f"**{key}**: {value}")
+                st.text_input(label=key, value=str(value), key=f"{selected_file}_{key}")
+            csv = filtered_df.to_csv(index=False).encode('utf-8')
+            st.download_button(
+                label="Télécharger les données extraites en CSV",
+                data=csv,
+                file_name=f"{selected_file.replace('.pdf', '_extracted_data.csv')}",
+                mime='text/csv',
+            )
         else:
             st.info("Aucune donnée extraite pour ce fichier.")
