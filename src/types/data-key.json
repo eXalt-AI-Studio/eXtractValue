@@ -6,11 +6,38 @@
         },
         "Locataire": {
             "type": "string"
+        },
+        "Loyer annuel (euros)": {
+            "type": "number"
+        },
+        "Charges (euros)": {
+            "type": "number"
+        },
+        "Adresse location": {
+            "type": "string"
+        },
+        "Code Postal location": {
+            "type": "number"
+        },
+        "Ville location": {
+            "type": "string"
+        },
+        "Date de début": {
+            "type": "string",
+            "format": "date"
+        },
+        "Date d'expiration": {
+            "type": "string",
+            "format": "date"
+        },
+        "Durée (années)": {
+            "type": "integer"
         }
     },
     "required": [
         "Bailleur",
-        "Locataire"
+        "Locataire",
+        "Loyer annuel (euros)"
     ],
     "additionalProperties": false
 }
