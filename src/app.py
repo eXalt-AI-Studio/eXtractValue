@@ -24,6 +24,18 @@ st.set_page_config(
     layout="wide"
 )
 
+st.markdown(
+    """
+    <style>
+    .stDownloadButton button {
+        background-color: #5853FF !important;
+        color: white !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 header_col1, header_col2 = st.columns([1, 8])
 with header_col1:
     st.image("src/images/logo-exalt-2.png", width=100)
