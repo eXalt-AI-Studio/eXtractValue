@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "Bailleur": {
+            "type": "string"
+        },
+        "Locataire": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "Bailleur",
+        "Locataire"
+    ],
+    "additionalProperties": false
+}
