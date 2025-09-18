@@ -61,8 +61,8 @@ with select_col:
     selected_file = st.selectbox("Sélectionner un bail commercial:", list_files)
 filtered_df = df[df['filename'] == selected_file]
     
-tab_names = ["Extraction", "Question", "Analyse Automatique"]
-tab1, tab2, tab3 = st.tabs(tab_names)
+tab_names = ["Extraction", "Question", "Analyse Automatique", "Timeline"]
+tab1, tab2, tab3, tab4 = st.tabs(tab_names)
 
 with tab1:
     col1, col2 = st.columns(2)
@@ -124,15 +124,18 @@ with tab3:
     if not filtered_df.empty:
         annual_rents = get_annual_rents(filtered_df)
     with col1:
-        st.subheader("Echéancier des loyers minimal :")
+        st.subheader("Echéancier des loyers minimaux :")
         if not annual_rents.empty:
             st.dataframe(annual_rents)
     with col2:
-        st.subheader("Visualisation des loyers minimal :")
+        st.subheader("Visualisation des loyers minimaux :")
         if not annual_rents.empty:
             chart_data = annual_rents.copy()
             year_col = 'Year' if 'Year' in chart_data.columns else 'Année'
             rent_col = 'Expected Rent (€)' if 'Expected Rent (€)' in chart_data.columns else 'Loyer attendu (€)'
             if year_col in chart_data.columns and rent_col in chart_data.columns:
                 st.bar_chart(data=chart_data, x=year_col, y=rent_col, use_container_width=True)
+
+with tab4:
+    st.subheader("Chronologie :")
 
