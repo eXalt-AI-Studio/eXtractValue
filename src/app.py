@@ -121,9 +121,18 @@ with tab2:
 
 with tab3:
     col1, col2 = st.columns(2)
+    if not filtered_df.empty:
+        annual_rents = get_annual_rents(filtered_df)
     with col1:
         st.subheader("Echéancier des loyers :")
-        if not filtered_df.empty:
-            annual_rents = get_annual_rents(filtered_df)
+        if not annual_rents.empty:
             st.dataframe(annual_rents)
-    
+    with col2:
+        st.subheader("Visualisation des loyers :")
+        if not annual_rents.empty:
+            chart_data = annual_rents.copy()
+            year_col = 'Year' if 'Year' in chart_data.columns else 'Année'
+            rent_col = 'Expected Rent (€)' if 'Expected Rent (€)' in chart_data.columns else 'Loyer attendu (€)'
+            if year_col in chart_data.columns and rent_col in chart_data.columns:
+                st.bar_chart(data=chart_data, x=year_col, y=rent_col, use_container_width=True)
+
