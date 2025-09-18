@@ -124,11 +124,11 @@ with tab3:
     if not filtered_df.empty:
         annual_rents = get_annual_rents(filtered_df)
     with col1:
-        st.subheader("Echéancier des loyers :")
+        st.subheader("Echéancier des loyers minimal :")
         if not annual_rents.empty:
             st.dataframe(annual_rents)
     with col2:
-        st.subheader("Visualisation des loyers :")
+        st.subheader("Visualisation des loyers minimal :")
         if not annual_rents.empty:
             chart_data = annual_rents.copy()
             year_col = 'Year' if 'Year' in chart_data.columns else 'Année'
