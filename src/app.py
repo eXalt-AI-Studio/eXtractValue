@@ -2,6 +2,14 @@ import os
 import streamlit as st
 import pandas as pd
 import fitz
+from annual_rent import get_annual_rents
+from llm_chat import call_llm_chat
+from dotenv import load_dotenv
+
+load_dotenv()
+OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
+if not OPENROUTER_API_KEY:
+    raise ValueError("Missing OPENROUTER_API_KEY")
 
 # Load data from CSV
 df = pd.read_csv('output/output_text.csv')
@@ -31,22 +39,30 @@ st.markdown(
         background-color: #5853FF !important;
         color: white !important;
     }
+    div.stButton > button:first-child {
+        background-color: #5853FF !important;
+        color: white !important;
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
 
-header_col1, header_col2 = st.columns([1, 8])
+header_col1, header_col2, header_col3 = st.columns([1, 1, 8])
 with header_col1:
     st.image("src/images/logo-exalt-2.png", width=100)
 with header_col2:
+    st.image("src/images/logo-AEW.png", width=100)
+with header_col3:
     st.markdown("<h3 style='color: #5853FF; margin: 0;'>Données Baux Commerciaux</h3>", unsafe_allow_html=True)
 
-selected_file = st.selectbox("Sélectionner un bail commercial:", list_files)
+select_col, _ = st.columns([1, 4])
+with select_col:
+    selected_file = st.selectbox("Sélectionner un bail commercial:", list_files)
 filtered_df = df[df['filename'] == selected_file]
     
-tab_names = ["Extraction", "Analyse"]
-tab1, tab2 = st.tabs(tab_names)
+tab_names = ["Extraction", "Question", "Analyse Automatique"]
+tab1, tab2, tab3 = st.tabs(tab_names)
 
 with tab1:
     col1, col2 = st.columns(2)
@@ -78,3 +94,36 @@ with tab1:
             )
         else:
             st.info("Aucune donnée extraite pour ce fichier.")
+
+with tab2:
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Texte Extrait :")
+        if not filtered_df.empty:
+            txt_path = f"output/{selected_file.replace('.pdf', '.txt')}"
+            if os.path.exists(txt_path):
+                with open(txt_path, "r", encoding="utf-8") as txt_file:
+                    text_content = txt_file.read()
+                st.text_area("Contenu texte extrait du PDF :", text_content, height=1000)
+        else:
+            st.info("Aucun fichier texte extrait trouvé pour ce PDF.")
+    with col2:
+        st.subheader("Saisir une question :")
+        user_question = st.text_area("Votre question :", value="Quelles sont les clauses qui peuvent poser problème juridiquement ?", height=80)
+        if st.button("Envoyer la question"):
+            response, usage = call_llm_chat(
+                "You are a helpful assistant.",
+                user_question,
+                text_content,
+                temperature=0.0
+            )
+            st.write(response)
+
+with tab3:
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Echéancier des loyers :")
+        if not filtered_df.empty:
+            annual_rents = get_annual_rents(filtered_df)
+            st.dataframe(annual_rents)
+    
