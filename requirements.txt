@@ -3,3 +3,4 @@ pandas
 dotenv
 boto3
 pymupdf
+plotly

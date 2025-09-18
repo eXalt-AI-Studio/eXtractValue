@@ -5,6 +5,7 @@ import fitz
 from annual_rent import get_annual_rents
 from llm_chat import call_llm_chat
 from dotenv import load_dotenv
+import plotly.graph_objects as go
 
 load_dotenv()
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -61,7 +62,7 @@ with select_col:
     selected_file = st.selectbox("Sélectionner un bail commercial:", list_files)
 filtered_df = df[df['filename'] == selected_file]
     
-tab_names = ["Extraction", "Question", "Analyse Automatique", "Timeline"]
+tab_names = ["Extraction", "Question", "Analyse Automatique", "Chronologie"]
 tab1, tab2, tab3, tab4 = st.tabs(tab_names)
 
 with tab1:
@@ -138,4 +139,31 @@ with tab3:
 
 with tab4:
     st.subheader("Chronologie :")
+    if not filtered_df.empty:
+        start_date = pd.to_datetime(filtered_df.iloc[0].get("Date de début"))
+        end_date = pd.to_datetime(filtered_df.iloc[0].get("Date d'expiration"))
+        signature_date = pd.to_datetime(filtered_df.iloc[0].get("Date de signature du bail"))
+        timeline_df = pd.DataFrame({
+            "Event": ["Début", "Expiration", "Signature"],
+            "Date": [start_date, end_date, signature_date]
+        })
+        fig = go.Figure()
+        fig.add_trace(go.Scatter(
+            x=timeline_df["Date"],
+            y=[1, 1, 1],
+            mode="markers+text+lines",
+            marker=dict(size=16, color="#5853FF"),
+            text=timeline_df["Event"],
+            textposition="top center",
+            line=dict(color="#5853FF", width=4),
+            hoverinfo="text+x"
+        ))
+        fig.update_layout(
+            showlegend=False,
+            yaxis=dict(showticklabels=False, showgrid=False, zeroline=False),
+            xaxis_title="Date",
+            margin=dict(l=20, r=20, t=30, b=20),
+            height=180
+        )
+        st.plotly_chart(fig, use_container_width=True)
 

@@ -33,6 +33,14 @@
         "Durée (années)": {
             "type": "integer"
         },
+        "Date de signature du bail": {
+            "type": "string",
+            "format": "date"
+        },
+        "Indice de référence pour l'indexation du loyer": {
+            "type": "string",
+            "format": "date"
+        },
         "Résumé (250 caractères)": {
             "type": "string"
         }
