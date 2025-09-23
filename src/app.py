@@ -6,6 +6,7 @@ from annual_rent import get_annual_rents
 from llm_chat import call_llm_chat
 from dotenv import load_dotenv
 import plotly.graph_objects as go
+from PIL import Image, ImageDraw
 
 load_dotenv()
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -72,10 +73,12 @@ with tab1:
         if os.path.exists(f"data/{selected_file}"):   
             try:
                 doc = fitz.open(f"data/{selected_file}")
-                for page_num in range(len(doc)):
-                    page = doc.load_page(page_num)
-                    pix = page.get_pixmap()
-                    st.image(pix.tobytes(), caption=f"Page {page_num+1}", width='stretch')
+                num_pages = doc.page_count
+                page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1) - 1
+                page = doc.load_page(page_number)
+                pix = page.get_pixmap()
+                img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                st.image(img, caption=f"Page {page_number+1}", width='stretch')
             except Exception as e:
                 st.error(f"Error displaying PDF: {e}")
     with col2:

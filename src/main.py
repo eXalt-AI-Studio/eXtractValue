@@ -42,17 +42,15 @@ def extract_key_data_with_text(file, text):
 	for col in df.columns:
 		if col != 'filename' and col != 'Résumé':
 			line = df.iloc[0][col]['line_id']
-			print(f"{col}: search for line {line} vs len(text) {len(text)}")
 			if line < len(text):
-				col_name = f"{col}Geometry"
-				print(col_name, text[line]['Geometry']['BoundingBox'])
+				col_name = f"{col} Geometry"
 				df[col_name] = [text[line]['Geometry']['BoundingBox']] * len(df)
-			else:
-				df[col_name] = ""
+				col_name = f"{col} Page"
+				df[col_name] = [text[line]['Page']] * len(df)
 			df[f'{col}'] = df.iloc[0][col]['value']
-	print(df[['Bailleur', 'BailleurGeometry']])
-	print("Response from LLM with text:")
-	df.to_csv("output/block-output_text.csv", index=False)
+	csv_path = "output/block-output_text.csv"
+	file_exists = os.path.isfile(csv_path)
+	df.to_csv(csv_path, mode='a', header=not file_exists, index=False)
 	return response, usage
 
 def extract_key_data_with_pdf(file_path):
@@ -72,6 +70,10 @@ def extract_line(text_ocr):
 		results.append({
                 "Text": item['Text']
             })
+	print(f"Extracted {len(results)} lines from OCR text.")
+	plain_text = [item['Text'] for item in text_ocr]
+	plain_text = "\n".join(plain_text)
+	print(f"Extracted {len(plain_text.splitlines())} lines (plain text) from OCR text.")
 	return results
 
 def read_pdfs_in_s3(file):

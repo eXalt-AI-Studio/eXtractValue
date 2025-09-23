@@ -54,7 +54,9 @@ def extract_plain_text_from_pdf_async(document):
             lines.append({
                 "Id": block['Id'],
                 "Text": block['Text'],
-                "Geometry": block['Geometry']
+                "Geometry": block['Geometry'],
+                "Page": block['Page'],
+                "Confidence": block['Confidence']
             })
             
     return lines

@@ -1,6 +1,6 @@
 [
   {
-    "Id": "e6fdd35d-8d4c-4e86-b846-8e0e98dfa2b3",
+    "Id": "c44343c2-3765-4c8f-a2f8-82ac61077b04",
     "Text": "CONTRAT DE BAIL COMMERCIAL",
     "Geometry": {
       "BoundingBox": {
@@ -27,10 +27,12 @@
           "Y": 0.1457550972700119
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.93612670898438
   },
   {
-    "Id": "5fc0fd55-d975-49df-8289-e44791943df0",
+    "Id": "916e67cc-404e-4b2b-a8ec-c61fce061bb6",
     "Text": "ENTRE",
     "Geometry": {
       "BoundingBox": {
@@ -57,10 +59,12 @@
           "Y": 0.224513977766037
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.990234375
   },
   {
-    "Id": "f40af5d7-526e-42e6-a246-3ca48e91a99e",
+    "Id": "521c2bb3-a53e-4803-9b5b-229786e2d05e",
     "Text": "La Société AEW Europe,",
     "Geometry": {
       "BoundingBox": {
@@ -87,10 +91,12 @@
           "Y": 0.27231451869010925
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.40673828125
   },
   {
-    "Id": "8e56f65f-3105-4579-a546-06dc49a332ad",
+    "Id": "74f07010-c3da-44f7-9ff1-4557f9db16e2",
     "Text": "20, rue de la Paix, 75002 Paris,",
     "Geometry": {
       "BoundingBox": {
@@ -117,10 +123,12 @@
           "Y": 0.3093324899673462
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.71437072753906
   },
   {
-    "Id": "29bb5772-5571-4f38-8564-669dddfa2351",
+    "Id": "fd0711a7-8d95-4619-91a2-48e5c22f7043",
     "Text": "représentée par Monsieur Jean Dupont, en sa qualité de Directeur Général, dûment",
     "Geometry": {
       "BoundingBox": {
@@ -147,10 +155,12 @@
           "Y": 0.3463502824306488
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.31906127929688
   },
   {
-    "Id": "0cef4b8a-948e-4fe0-996b-4b11b5092578",
+    "Id": "7314ac41-abb2-44d7-93ec-d8941321fa25",
     "Text": "habilité",
     "Geometry": {
       "BoundingBox": {
@@ -177,10 +187,12 @@
           "Y": 0.36651986837387085
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.68192291259766
   },
   {
-    "Id": "dc0c6c1a-1709-4542-9475-88b3bbc0e60b",
+    "Id": "5bcab10c-69d4-47e7-92a7-f56985d22d16",
     "Text": "ci-après dénommée \"LE BAILLEUR\"",
     "Geometry": {
       "BoundingBox": {
@@ -207,10 +219,12 @@
           "Y": 0.40591874718666077
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.0467529296875
   },
   {
-    "Id": "d3faec31-46bd-4d35-b3f5-5cc7a4ec72a6",
+    "Id": "db1c9b36-ec5f-48b2-86cb-df1cfc7d3367",
     "Text": "D'UNE PART",
     "Geometry": {
       "BoundingBox": {
@@ -237,10 +251,12 @@
           "Y": 0.4405286908149719
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.38526153564453
   },
   {
-    "Id": "ee064980-c27a-4051-ae5a-3394a6662154",
+    "Id": "53948e4d-dfda-4a06-ade8-d475f8e70b35",
     "Text": "ET",
     "Geometry": {
       "BoundingBox": {
@@ -267,10 +283,12 @@
           "Y": 0.4776645004749298
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.73233795166016
   },
   {
-    "Id": "e037c737-d3d8-469a-9474-5e08a0b59821",
+    "Id": "288ad76e-9412-4940-a5ad-9a5c2f147ffb",
     "Text": "La Société Fayet,",
     "Geometry": {
       "BoundingBox": {
@@ -297,10 +315,12 @@
           "Y": 0.5172025561332703
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.39446258544922
   },
   {
-    "Id": "f0ed5d45-a131-4d26-81b1-4fef54845098",
+    "Id": "91cd31fc-c362-4264-a14e-c58f593d3993",
     "Text": "12, Avenue des Champs-Élysées, 75008 Paris,",
     "Geometry": {
       "BoundingBox": {
@@ -327,10 +347,12 @@
           "Y": 0.5545924305915833
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 98.30852508544922
   },
   {
-    "Id": "d74bcf2a-1dba-4bbe-a1b6-8dcb37d052d8",
+    "Id": "f7d520d3-52da-4f4f-b405-709a88155eb3",
     "Text": "Représentée par Madame Sophie Dubois, en sa qualité de Présidente Directrice",
     "Geometry": {
       "BoundingBox": {
@@ -357,10 +379,12 @@
           "Y": 0.5913161635398865
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.38058471679688
   },
   {
-    "Id": "6251b175-67e2-42d9-b661-42ce242560e9",
+    "Id": "3778b3ff-0416-4f6f-afb6-f5174d3114d5",
     "Text": "Générale",
     "Geometry": {
       "BoundingBox": {
@@ -387,10 +411,12 @@
           "Y": 0.6115334033966064
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 98.89448547363281
   },
   {
-    "Id": "d529645f-7db8-47ea-b896-385e2400b6c1",
+    "Id": "9031be62-10b8-4afa-b217-94fcca427f84",
     "Text": "ci-après dénommée \"LE LOCATAIRE\"",
     "Geometry": {
       "BoundingBox": {
@@ -417,10 +443,12 @@
           "Y": 0.6520562171936035
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 98.8720703125
   },
   {
-    "Id": "57f54aa0-9b04-47e1-b09a-ec6de7942788",
+    "Id": "42b4b9eb-f666-42a5-b732-dfb2a6449107",
     "Text": "D'AUTRE PART",
     "Geometry": {
       "BoundingBox": {
@@ -447,10 +475,12 @@
           "Y": 0.6852623224258423
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.77788543701172
   },
   {
-    "Id": "30d7d127-895b-48cc-bff5-15840fda529c",
+    "Id": "86055f04-23e1-40bc-9048-4da7b916ddad",
     "Text": "EXPOSE",
     "Geometry": {
       "BoundingBox": {
@@ -477,10 +507,12 @@
           "Y": 0.7492891550064087
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.970703125
   },
   {
-    "Id": "addab022-fcd4-476e-a6bd-5f9790bcbba1",
+    "Id": "c504c2c1-856a-406f-8ab1-abc65fd4ceac",
     "Text": "Les parties entendent régler par la présente convention les modalités relatives à la",
     "Geometry": {
       "BoundingBox": {
@@ -507,10 +539,12 @@
           "Y": 0.7970981001853943
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.49514770507812
   },
   {
-    "Id": "7fbe0e7e-09b7-45f7-a58b-bfbfe2e07913",
+    "Id": "ebc77e4c-3043-4fc5-939a-4be63d4fae31",
     "Text": "location faite par le BAILLEUR à la LOCATAIRE des lieux dans lesquels cette dernière",
     "Geometry": {
       "BoundingBox": {
@@ -537,10 +571,12 @@
           "Y": 0.819344162940979
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.67501831054688
   },
   {
-    "Id": "889d2564-6135-451a-ba61-759158785bba",
+    "Id": "e67db3c7-fe3c-4836-a19f-0ae7364ce9f8",
     "Text": "souhaite exploiter le restaurant ci-dessous mentionné.",
     "Geometry": {
       "BoundingBox": {
@@ -567,10 +603,12 @@
           "Y": 0.8422881960868835
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 99.40396881103516
   },
   {
-    "Id": "fed840d4-2140-4427-8260-8f263a75f25d",
+    "Id": "fc78d3a1-a511-458e-9099-8afc0d1b7e8c",
     "Text": "CECI ETANT EXPOSE, IL A ETE CONVENU CE QUI SUIT:",
     "Geometry": {
       "BoundingBox": {
@@ -597,10 +635,12 @@
           "Y": 0.8790451288223267
         }
       ]
-    }
+    },
+    "Page": 1,
+    "Confidence": 97.92898559570312
   },
   {
-    "Id": "1aeacfd3-33ec-41a7-a9af-98e0128d8350",
+    "Id": "792eeec9-476b-4c75-83d9-c402ca5d29ed",
     "Text": "ARTICLE 1 : OBJET DU CONTRAT",
     "Geometry": {
       "BoundingBox": {
@@ -627,10 +667,12 @@
           "Y": 0.09410427510738373
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 97.99250030517578
   },
   {
-    "Id": "3eb6e0cc-9077-4637-964e-fe3692c7dd76",
+    "Id": "5c585a61-1c1f-4cce-98a6-b445f0b678d2",
     "Text": "Le BAILLEUR met à la disposition du LOCATAIRE, moyennant le versement d'un loyer,",
     "Geometry": {
       "BoundingBox": {
@@ -657,10 +699,12 @@
           "Y": 0.14134874939918518
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.54618072509766
   },
   {
-    "Id": "9d62d276-73ca-4fc2-844b-525d6f8ba71f",
+    "Id": "9222c795-e7b2-4b86-ba28-0206c1dac0b1",
     "Text": "les locaux ci-dessous désignés, dépendant d'un immeuble sis à 15, Rue de la Banque,",
     "Geometry": {
       "BoundingBox": {
@@ -687,10 +731,12 @@
           "Y": 0.16458237171173096
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.2669677734375
   },
   {
-    "Id": "1fe49dff-040b-4850-b25d-ebc719ceb8d1",
+    "Id": "b3a8ef27-bb9f-4361-9239-54d47c25f313",
     "Text": "75002 Paris.",
     "Geometry": {
       "BoundingBox": {
@@ -717,10 +763,12 @@
           "Y": 0.18408577144145966
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.43807983398438
   },
   {
-    "Id": "cf629f18-178a-47ae-a19b-363580c62a3a",
+    "Id": "7e458d2f-eaab-4cff-8c62-2f161991427f",
     "Text": "Les biens loués se composent d'une salle de restaurant, d'une cuisine professionnelle,",
     "Geometry": {
       "BoundingBox": {
@@ -747,10 +795,12 @@
           "Y": 0.22399163246154785
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.35769653320312
   },
   {
-    "Id": "7a1cc180-1cd2-4bb0-b818-829c161833a9",
+    "Id": "94ef7e3b-f2d9-4e20-901e-8b70355cc7f3",
     "Text": "d'un bureau, d'un espace de stockage et de divers locaux techniques ; le LOCATAIRE",
     "Geometry": {
       "BoundingBox": {
@@ -777,10 +827,12 @@
           "Y": 0.24739740788936615
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 98.98346710205078
   },
   {
-    "Id": "a672530d-f79d-49c5-aa6c-3c0a03a7e140",
+    "Id": "af2b95af-99c1-4604-9f22-4adef3479f49",
     "Text": "dispense le BAILLEUR de les décrire plus amplement.",
     "Geometry": {
       "BoundingBox": {
@@ -807,10 +859,12 @@
           "Y": 0.26950201392173767
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.63438415527344
   },
   {
-    "Id": "36949395-31d7-4c71-aa9c-46b7ddb51df0",
+    "Id": "6c8550cb-d620-4729-b101-c160fc7655f4",
     "Text": "Sans qu'il en soit fait plus ample désignation, le LOCATAIRE déclare les connaître et les",
     "Geometry": {
       "BoundingBox": {
@@ -837,10 +891,12 @@
           "Y": 0.3072170615196228
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.51791381835938
   },
   {
-    "Id": "e5b4198d-162c-482c-89dd-0bcb2d527fcb",
+    "Id": "544572ff-9c88-4813-9396-3937a0d134da",
     "Text": "accepter.",
     "Geometry": {
       "BoundingBox": {
@@ -867,10 +923,12 @@
           "Y": 0.32934483885765076
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.92107391357422
   },
   {
-    "Id": "45f95faf-0a63-47f7-a791-fdb7525298c8",
+    "Id": "93ea39c0-ca32-4bf9-b35b-718a2a9b14fc",
     "Text": "ARTICLE 2 : DESTINATION",
     "Geometry": {
       "BoundingBox": {
@@ -897,10 +955,12 @@
           "Y": 0.39099887013435364
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 97.54374694824219
   },
   {
-    "Id": "6b563d90-1c90-4eee-b279-9700104abf2e",
+    "Id": "9c3ae74e-7d87-45fa-9ffb-83cbd437e541",
     "Text": "Les lieux sont loués à usage exclusif d'un restaurant de type cuisine gastronomique",
     "Geometry": {
       "BoundingBox": {
@@ -927,10 +987,12 @@
           "Y": 0.43827295303344727
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.55075073242188
   },
   {
-    "Id": "4a759f9e-2579-4769-9b33-acf6659b514d",
+    "Id": "e642bb15-adde-487b-af96-2e7eddea3aff",
     "Text": "française et exploité dans le cadre de l'enseigne \"Le Gourmet Parisien\".",
     "Geometry": {
       "BoundingBox": {
@@ -957,10 +1019,12 @@
           "Y": 0.4615490734577179
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.34101104736328
   },
   {
-    "Id": "9d59d94a-da71-4b6c-abad-54ccaea83d85",
+    "Id": "aee43350-c054-4d4a-9f0a-70bfb8604ad7",
     "Text": "Cette destination précise est considérée par chacune des parties comme déterminante",
     "Geometry": {
       "BoundingBox": {
@@ -987,10 +1051,12 @@
           "Y": 0.49763599038124084
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.4169921875
   },
   {
-    "Id": "27e6a28f-06bd-453a-b834-994672a6d535",
+    "Id": "2c074e69-3a31-4ab6-bdf7-08294714be59",
     "Text": "pour la conclusion de la présente convention, en ce sens que, sans elle, les parties",
     "Geometry": {
       "BoundingBox": {
@@ -1017,10 +1083,12 @@
           "Y": 0.5211692452430725
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.5338134765625
   },
   {
-    "Id": "3ac09767-fb87-4acd-920f-4b38071bd9fe",
+    "Id": "9ee52406-879c-49f4-8f6e-819d37b8e0c5",
     "Text": "n'auraient pas conclu le présent bail.",
     "Geometry": {
       "BoundingBox": {
@@ -1047,10 +1115,12 @@
           "Y": 0.5440444350242615
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.34889221191406
   },
   {
-    "Id": "ee01b884-e246-498e-b1a1-58a14d1fe737",
+    "Id": "43f76496-57f7-40e1-87bf-64f8ba06b1da",
     "Text": "Le LOCATAIRE ne pourra donc changer cette destination, et en conséquence, les",
     "Geometry": {
       "BoundingBox": {
@@ -1077,10 +1147,12 @@
           "Y": 0.5808214545249939
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.43983459472656
   },
   {
-    "Id": "096b201d-edac-40cb-b96a-37975d22885b",
+    "Id": "01c7f385-c39f-4956-96f2-7cf98df63658",
     "Text": "parties reconnaissent expressément que la cessation par le LOCATAIRE de",
     "Geometry": {
       "BoundingBox": {
@@ -1107,10 +1179,12 @@
           "Y": 0.6037061214447021
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.19328308105469
   },
   {
-    "Id": "98a4a3ed-cfcf-46cc-b905-660641725e69",
+    "Id": "24ab991f-e1f8-47d4-aedc-ed47d1748d08",
     "Text": "l'exploitation de ce restaurant pour quelque cause que ce soit, notamment et à titre",
     "Geometry": {
       "BoundingBox": {
@@ -1137,10 +1211,12 @@
           "Y": 0.626010000705719
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.36669158935547
   },
   {
-    "Id": "60b077e2-ab91-43f2-96cc-6e97c93000b0",
+    "Id": "dd0cfb36-ec14-4027-883e-84323e323e38",
     "Text": "non limitatif en raison de la perte par le LOCATAIRE de sa qualité de franchisé, sera",
     "Geometry": {
       "BoundingBox": {
@@ -1167,10 +1243,12 @@
           "Y": 0.6491081118583679
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.37598419189453
   },
   {
-    "Id": "8fcf449f-3ba5-416f-ac52-89aaf0e3a737",
+    "Id": "fa57abc0-6f9c-4a60-85f1-1bb54fd2cd5c",
     "Text": "considérée comme un changement de destination devant entraîner par voie de",
     "Geometry": {
       "BoundingBox": {
@@ -1197,10 +1275,12 @@
           "Y": 0.6715051531791687
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.41888427734375
   },
   {
-    "Id": "f6d13111-bfc2-4685-900b-64deec3ba648",
+    "Id": "107ee672-3b1d-4237-b562-17a6067c4c66",
     "Text": "conséquence la résolution de la présente convention.",
     "Geometry": {
       "BoundingBox": {
@@ -1227,10 +1307,12 @@
           "Y": 0.6946852207183838
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.23944854736328
   },
   {
-    "Id": "a5c5bcdd-b4cb-4399-ad00-08b05a64d7c8",
+    "Id": "33a8b9bb-12a0-4dab-a34a-52eb7a3331af",
     "Text": "Par ailleurs, le LOCATAIRE veillera à se conformer dans le cadre de cette exploitation",
     "Geometry": {
       "BoundingBox": {
@@ -1257,10 +1339,12 @@
           "Y": 0.7317824959754944
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.49720764160156
   },
   {
-    "Id": "f7c0eaca-ad89-4a28-bf4a-fb4083eca051",
+    "Id": "61ab2c15-c1ef-4f89-bebf-560d4bce7a9b",
     "Text": "aux diverses réglementations en vigueur et à obtenir toutes autorisations nécessaires",
     "Geometry": {
       "BoundingBox": {
@@ -1287,10 +1371,12 @@
           "Y": 0.7540210485458374
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.02031707763672
   },
   {
-    "Id": "535e9990-d784-48c2-ab88-488dd5be0089",
+    "Id": "57a88d9a-dbf1-4eb7-b05e-4b6cc2998208",
     "Text": "à une telle exploitation.",
     "Geometry": {
       "BoundingBox": {
@@ -1317,10 +1403,12 @@
           "Y": 0.7771756649017334
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.04560852050781
   },
   {
-    "Id": "8f7ed925-7464-422b-9f31-17e874c81295",
+    "Id": "7035bdd1-23d7-4ebf-b2d1-d6bcd1e1968e",
     "Text": "ARTICLE 3 : LOYER ET CHARGES",
     "Geometry": {
       "BoundingBox": {
@@ -1347,10 +1435,12 @@
           "Y": 0.8380518555641174
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 97.73859405517578
   },
   {
-    "Id": "074da014-4f2c-4b7c-afa9-778969fd8649",
+    "Id": "9f6b2495-219a-4a1c-886c-c32dfdce15ba",
     "Text": "Le loyer annuel hors taxes et hors charges est fixé à 85 000 Euros (quatre-vingt-cinq",
     "Geometry": {
       "BoundingBox": {
@@ -1377,10 +1467,12 @@
           "Y": 0.8863401412963867
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 96.57743835449219
   },
   {
-    "Id": "8d663aef-7e94-43f2-b602-a5149af22cb1",
+    "Id": "e8cfaba1-a6f1-4360-844d-d08af8ef7b9b",
     "Text": "mille Euros)",
     "Geometry": {
       "BoundingBox": {
@@ -1407,10 +1499,12 @@
           "Y": 0.9076561331748962
         }
       ]
-    }
+    },
+    "Page": 2,
+    "Confidence": 99.6505355834961
   },
   {
-    "Id": "857bae23-9241-4e34-aaf8-c178314c459e",
+    "Id": "35deb6d4-e909-4553-9add-85f2bcc32653",
     "Text": "Ce loyer sera payable par trimestre et d'avance, le premier jour de chaque trimestre",
     "Geometry": {
       "BoundingBox": {
@@ -1437,10 +1531,12 @@
           "Y": 0.0881667360663414
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.62591552734375
   },
   {
-    "Id": "d2d685bf-8c52-4828-ac53-025e4dbfe8c9",
+    "Id": "f6700ca8-579f-4b51-b5f8-f7aac18cf5b1",
     "Text": "civil, par prélèvement automatique.",
     "Geometry": {
       "BoundingBox": {
@@ -1467,10 +1563,12 @@
           "Y": 0.11128486692905426
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.04252624511719
   },
   {
-    "Id": "001f002e-31e2-4f97-8b21-3f356038ec39",
+    "Id": "cc8f75e0-c455-43d5-8141-8f47d7062aac",
     "Text": "Les charges locatives, incluant notamment les taxes foncières, les charges de",
     "Geometry": {
       "BoundingBox": {
@@ -1497,10 +1595,12 @@
           "Y": 0.14748628437519073
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.54864501953125
   },
   {
-    "Id": "e205cd38-9160-4e0a-b721-c6a47219f7b5",
+    "Id": "f8583388-f001-4546-9f2b-78752f300bfc",
     "Text": "copropriété et les consommations d'eau et d'électricité, seront refacturées au",
     "Geometry": {
       "BoundingBox": {
@@ -1527,10 +1627,12 @@
           "Y": 0.17074942588806152
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 98.35200500488281
   },
   {
-    "Id": "bd644303-8fe2-462c-b836-4a11fbff9b71",
+    "Id": "6a4068c7-d586-4e58-9784-a235c938dfd4",
     "Text": "LOCATAIRE sur justificatifs.",
     "Geometry": {
       "BoundingBox": {
@@ -1557,10 +1659,12 @@
           "Y": 0.19325506687164307
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.42588806152344
   },
   {
-    "Id": "081e8a3e-1503-4df9-ae6e-40399b4c98e2",
+    "Id": "d96a2e88-e025-42dd-9f80-6aff14645c2c",
     "Text": "ARTICLE 4 : DUREE",
     "Geometry": {
       "BoundingBox": {
@@ -1587,10 +1691,12 @@
           "Y": 0.2543293535709381
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 97.724609375
   },
   {
-    "Id": "dc02224b-d285-4998-b513-a0ef363b2c81",
+    "Id": "8327c3d1-ac6f-4bb8-9f8f-2af9c21cefb3",
     "Text": "Ce bail est consenti et accepté pour une durée de 9 années entières et consécutives",
     "Geometry": {
       "BoundingBox": {
@@ -1617,10 +1723,12 @@
           "Y": 0.3015710413455963
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.38935089111328
   },
   {
-    "Id": "d21a8b98-2a61-4518-b92d-9ad47930c33b",
+    "Id": "ad2fbda0-2956-4bb0-8778-c24433e3bb47",
     "Text": "commençant à courir le 1er février 2025 et venant à expiration le 31 janvier 2034.",
     "Geometry": {
       "BoundingBox": {
@@ -1647,10 +1755,12 @@
           "Y": 0.32524460554122925
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.27537536621094
   },
   {
-    "Id": "4288e570-8532-48c6-ad38-7b7a1e414bb4",
+    "Id": "6d7979b4-3db6-4ab6-b6f6-d7bd7ec5b305",
     "Text": "Mais le LOCATAIRE aura la faculté de le faire cesser à l'expiration de chaque période",
     "Geometry": {
       "BoundingBox": {
@@ -1677,10 +1787,12 @@
           "Y": 0.3613327741622925
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.46040344238281
   },
   {
-    "Id": "f992360e-6aa1-49b6-bf5c-52fd640156f5",
+    "Id": "ecc5b54a-5b75-4a00-9a78-03f0c1b508b4",
     "Text": "triennale en prévenant le BAILLEUR six mois au moins à l'avance, par acte",
     "Geometry": {
       "BoundingBox": {
@@ -1707,10 +1819,12 @@
           "Y": 0.3846394717693329
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.35235595703125
   },
   {
-    "Id": "4b45d5a0-b51b-49f0-b2b9-f8f845555951",
+    "Id": "164bbd31-a406-490b-9b53-57373dc8a51e",
     "Text": "extrajudiciaire.",
     "Geometry": {
       "BoundingBox": {
@@ -1737,10 +1851,12 @@
           "Y": 0.4080871045589447
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 98.39664459228516
   },
   {
-    "Id": "723eac78-6852-4579-b3a7-9408e21d6f71",
+    "Id": "a896c855-7c13-4d27-8871-16755c730b73",
     "Text": "ARTICLE 5 : OBLIGATIONS DU BAILLEUR",
     "Geometry": {
       "BoundingBox": {
@@ -1767,10 +1883,12 @@
           "Y": 0.46845197677612305
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 98.58059692382812
   },
   {
-    "Id": "3e56155f-e765-4c2e-850f-de7c7d931bb4",
+    "Id": "21692fec-cce4-49a9-b6ad-dababcc3a3ff",
     "Text": "1°) Mise à disposition",
     "Geometry": {
       "BoundingBox": {
@@ -1797,10 +1915,12 @@
           "Y": 0.5156673789024353
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 98.99961853027344
   },
   {
-    "Id": "1dbd1326-4bd6-423f-8212-7c5f81af3992",
+    "Id": "79d3149d-0142-4219-b34e-f9ae2e81b489",
     "Text": "Le BAILLEUR devra mettre les locaux loués à la disposition du LOCATAIRE en les tenant",
     "Geometry": {
       "BoundingBox": {
@@ -1827,10 +1947,12 @@
           "Y": 0.5526831746101379
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.64105987548828
   },
   {
-    "Id": "711adcab-8a23-4188-aa21-0e4a05fa7b71",
+    "Id": "7a03126d-ec54-497b-89ac-01f450289169",
     "Text": "clos et couverts sans déroger aux obligations du LOCATAIRE concernant les travaux qui",
     "Geometry": {
       "BoundingBox": {
@@ -1857,10 +1979,12 @@
           "Y": 0.5762614011764526
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.65483093261719
   },
   {
-    "Id": "fe1d7e4c-ce3e-4b7d-a891-5799403f25df",
+    "Id": "3de021d5-9a1a-4961-b8c3-88400e5a43a9",
     "Text": "seraient nécessaires à la devanture.",
     "Geometry": {
       "BoundingBox": {
@@ -1887,10 +2011,12 @@
           "Y": 0.5956181287765503
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.1961898803711
   },
   {
-    "Id": "3bcfe9dc-f697-433b-8704-d209173ff406",
+    "Id": "306c379b-3316-431b-b5c1-840024a2dded",
     "Text": "2°) Assurances",
     "Geometry": {
       "BoundingBox": {
@@ -1917,10 +2043,12 @@
           "Y": 0.6354973316192627
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 95.52903747558594
   },
   {
-    "Id": "882744b6-250c-4e38-b3a4-6326af0f20a9",
+    "Id": "33caac88-05d3-4c9d-9483-377bd25e2c2f",
     "Text": "Le BAILLEUR devra assurer l'immeuble contre l'incendie et être couvert par une",
     "Geometry": {
       "BoundingBox": {
@@ -1947,10 +2075,12 @@
           "Y": 0.6721413731575012
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.34691619873047
   },
   {
-    "Id": "9bab6ea1-19a6-42dd-a656-bf70814ca790",
+    "Id": "bded57bf-e92c-49bf-ab19-99266ca34f31",
     "Text": "assurance \"responsabilité civile\".",
     "Geometry": {
       "BoundingBox": {
@@ -1977,10 +2107,12 @@
           "Y": 0.6951946020126343
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 98.16851806640625
   },
   {
-    "Id": "4704359a-688c-4e4d-95a3-8a3ae9701ea2",
+    "Id": "099767fb-00c5-48c6-a898-7644c9685c04",
     "Text": "3°) Non concurrence",
     "Geometry": {
       "BoundingBox": {
@@ -2007,10 +2139,12 @@
           "Y": 0.7312737107276917
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 96.30567169189453
   },
   {
-    "Id": "02aa62d1-e762-48e6-8ee8-33eac3853f8d",
+    "Id": "01ae7d72-f930-4eb3-aa28-28071ac5e1e2",
     "Text": "Le BAILLEUR ne devra pas :",
     "Geometry": {
       "BoundingBox": {
@@ -2037,10 +2171,12 @@
           "Y": 0.7694626450538635
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 97.60094451904297
   },
   {
-    "Id": "9a26aa39-72e2-4a60-9a8c-c8d1a7f16f47",
+    "Id": "ec1a6811-4a5c-4d21-a458-ca80241c97fe",
     "Text": "exercer directement ou indirectement un commerce de restauration rapide ou",
     "Geometry": {
       "BoundingBox": {
@@ -2067,10 +2203,12 @@
           "Y": 0.8063510656356812
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.538330078125
   },
   {
-    "Id": "0f9c91ed-4092-46c9-bd39-c06b6ced2973",
+    "Id": "298fbc9f-f2f5-4ad0-a5da-5c816e382b23",
     "Text": "traiteur concurrent de celui du LOCATAIRE dans le même immeuble,",
     "Geometry": {
       "BoundingBox": {
@@ -2097,10 +2235,12 @@
           "Y": 0.8283509612083435
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.48812103271484
   },
   {
-    "Id": "71447b21-d3bf-413c-aed9-f3910fa15a56",
+    "Id": "b740faa4-be41-435c-bf84-d36c69616cdf",
     "Text": "louer une autre partie de l'immeuble pour l'exercice d'un commerce similaire ou",
     "Geometry": {
       "BoundingBox": {
@@ -2127,10 +2267,12 @@
           "Y": 0.8591801524162292
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.46900177001953
   },
   {
-    "Id": "8eb34879-d13e-47a4-a0a6-bad780fc7d51",
+    "Id": "fd82a7d1-36fc-4149-ae3c-7161ef7ef423",
     "Text": "permettant l'exercice d'un commerce similaire.",
     "Geometry": {
       "BoundingBox": {
@@ -2157,10 +2299,12 @@
           "Y": 0.8816269040107727
         }
       ]
-    }
+    },
+    "Page": 3,
+    "Confidence": 99.49625396728516
   },
   {
-    "Id": "fffbd2aa-7ec2-4fdf-b38f-37d4b8234cdf",
+    "Id": "3a1f024d-5857-4e26-ae9c-852dfa291f3e",
     "Text": "ARTICLE 6 : OBLIGATIONS DU LOCATAIRE",
     "Geometry": {
       "BoundingBox": {
@@ -2187,10 +2331,12 @@
           "Y": 0.09413495659828186
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 98.06886291503906
   },
   {
-    "Id": "8e4f61ef-740b-4ac8-823f-a603b50a70ae",
+    "Id": "3e33a089-4208-4ce8-9cc0-4a6a785942a5",
     "Text": "1°) Exploitation et garnissement des locaux",
     "Geometry": {
       "BoundingBox": {
@@ -2217,10 +2363,12 @@
           "Y": 0.14166392385959625
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.4376449584961
   },
   {
-    "Id": "dd1b05be-f136-4c46-a402-25d6f1e05572",
+    "Id": "913b0d23-9c14-4cba-a8fa-697a2dd06b58",
     "Text": "Le LOCATAIRE prendra les lieux loués dans l'état où ils se trouveront au moment de",
     "Geometry": {
       "BoundingBox": {
@@ -2247,10 +2395,12 @@
           "Y": 0.1785784214735031
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.41517639160156
   },
   {
-    "Id": "79df2532-14b2-40d9-bf8e-b2f5ce2d9b40",
+    "Id": "e424d539-03f8-49f2-9af0-cb14989223d6",
     "Text": "l'entrée en jouissance, un état des lieux dressé contradictoirement étant joint en",
     "Geometry": {
       "BoundingBox": {
@@ -2277,10 +2427,12 @@
           "Y": 0.2011755406856537
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 98.12254333496094
   },
   {
-    "Id": "2f8043c7-ca55-44dc-b497-7027c58cea23",
+    "Id": "09a86d77-7982-4f9f-bc96-f910f45bd2cb",
     "Text": "annexe du présent contrat, et devra y exploiter un commerce de restaurant",
     "Geometry": {
       "BoundingBox": {
@@ -2307,10 +2459,12 @@
           "Y": 0.2241963893175125
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 97.54256439208984
   },
   {
-    "Id": "2feb7055-d4af-4c18-916c-fb2cea3dbd18",
+    "Id": "92028019-4c9a-48df-95c7-5278b13cb7e8",
     "Text": "gastronomique, sans pouvoir y exercer aucune autre activité.",
     "Geometry": {
       "BoundingBox": {
@@ -2337,10 +2491,12 @@
           "Y": 0.2475031614303589
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 94.14867401123047
   },
   {
-    "Id": "da1dcb98-ecff-4b94-91e5-4eedc2fca4e5",
+    "Id": "aae00d22-c695-47be-b0c6-7767784c3659",
     "Text": "Il devra tenir les locaux loués garnis de meubles, matériels et marchandises en",
     "Geometry": {
       "BoundingBox": {
@@ -2367,10 +2523,12 @@
           "Y": 0.28398144245147705
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.4031753540039
   },
   {
-    "Id": "47bae377-16bb-4829-9913-cf6005fcc41b",
+    "Id": "46cab5f3-7df0-4bd0-8c24-f43890127763",
     "Text": "quantité et valeur suffisantes pour répondre du paiement des loyers et de l'exécution",
     "Geometry": {
       "BoundingBox": {
@@ -2397,10 +2555,12 @@
           "Y": 0.3071165084838867
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.1934814453125
   },
   {
-    "Id": "2758fdd8-e35e-4741-b429-fd10d460b337",
+    "Id": "abd449eb-0ca8-4d4f-a9f5-e39af72a2fd1",
     "Text": "des charges et des conditions du contrat.",
     "Geometry": {
       "BoundingBox": {
@@ -2427,10 +2587,12 @@
           "Y": 0.32932814955711365
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.77123260498047
   },
   {
-    "Id": "950ddc68-5fca-41f0-946b-254a35837796",
+    "Id": "327161f2-11f1-43e4-8b87-0f6c82beb8d3",
     "Text": "2°) Jouissance",
     "Geometry": {
       "BoundingBox": {
@@ -2457,10 +2619,12 @@
           "Y": 0.36632290482521057
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 96.27660369873047
   },
   {
-    "Id": "ca343100-de9f-4716-87f5-4c147f4816df",
+    "Id": "997f2f78-162e-4f9e-987a-a1ada9f1b471",
     "Text": "Le LOCATAIRE devra obtenir toutes les autorisations administratives nécessaires pour",
     "Geometry": {
       "BoundingBox": {
@@ -2487,10 +2651,12 @@
           "Y": 0.4042564332485199
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.53660583496094
   },
   {
-    "Id": "54b07741-754c-497f-a49d-0c48ea2eae73",
+    "Id": "12e53bb5-d0bd-44c8-b77a-9060aeada1be",
     "Text": "l'exercice de son activité et se conformer aux lois et règlements en vigueur concernant",
     "Geometry": {
       "BoundingBox": {
@@ -2517,10 +2683,12 @@
           "Y": 0.42630335688591003
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.31038665771484
   },
   {
-    "Id": "05b78877-31b2-444a-a098-2151244da4f9",
+    "Id": "a9e94532-03cc-4d19-b608-6fbc9aa25ee4",
     "Text": "la voirie, la salubrité, la police, la sécurité, l'hygiène et le travail.",
     "Geometry": {
       "BoundingBox": {
@@ -2547,10 +2715,12 @@
           "Y": 0.44952520728111267
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.16533660888672
   },
   {
-    "Id": "847f2198-6332-41c4-b8af-f9fd9bdb927c",
+    "Id": "bfb35b6f-8fd6-4065-8613-ee3c16ae8935",
     "Text": "Le LOCATAIRE devra occuper les locaux en bon père de famille et ne rien faire qui",
     "Geometry": {
       "BoundingBox": {
@@ -2577,10 +2747,12 @@
           "Y": 0.4862634241580963
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.6578369140625
   },
   {
-    "Id": "6a9e9834-a0b1-40f9-85ca-4f2b48c8537c",
+    "Id": "c2ccf5ce-936e-4764-b86e-df6c6b5ab5cc",
     "Text": "puisse troubler la tranquillité ou causer un quelconque trouble de jouissance par son",
     "Geometry": {
       "BoundingBox": {
@@ -2607,10 +2779,12 @@
           "Y": 0.5095044374465942
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.46875
   },
   {
-    "Id": "a6c87cc6-2b89-44f1-aabf-4ee03aac93ee",
+    "Id": "41e0d83e-a919-4611-a303-70e923d9eb73",
     "Text": "fait ou celui des gens qu'il emploiera à son service.",
     "Geometry": {
       "BoundingBox": {
@@ -2637,10 +2811,12 @@
           "Y": 0.5325949192047119
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.44246673583984
   },
   {
-    "Id": "314f5f41-30b6-481d-b017-c083fef8ffc6",
+    "Id": "ea291157-fde5-4997-bb57-46bf03ca529f",
     "Text": "En cas de contestation concernant son activité, il devra en faire son affaire personnelle",
     "Geometry": {
       "BoundingBox": {
@@ -2667,10 +2843,12 @@
           "Y": 0.5689263343811035
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.31959533691406
   },
   {
-    "Id": "d1858798-0eb1-404a-b62e-e1863fdddc22",
+    "Id": "c152a7d2-0d83-4b03-96aa-15707bd0cbe0",
     "Text": "; il en ira de même face aux troubles que les autres occupants de l'immeuble ou les",
     "Geometry": {
       "BoundingBox": {
@@ -2697,10 +2875,12 @@
           "Y": 0.5921322107315063
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 98.70423126220703
   },
   {
-    "Id": "5caf0dc6-6f6a-4439-9352-8aa29db65808",
+    "Id": "d2a77fda-cb76-4c3f-b626-c207b67a3225",
     "Text": "voisins pourraient lui occasionner.",
     "Geometry": {
       "BoundingBox": {
@@ -2727,10 +2907,12 @@
           "Y": 0.6144155263900757
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.04879760742188
   },
   {
-    "Id": "448fd863-b158-48f9-8903-b00cd62ac556",
+    "Id": "e45de580-b735-4592-ad63-883ec329b6a3",
     "Text": "3°) Enseigne et inscriptions diverses",
     "Geometry": {
       "BoundingBox": {
@@ -2757,10 +2939,12 @@
           "Y": 0.6516842246055603
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 98.38680267333984
   },
   {
-    "Id": "dec080b2-d479-474f-adc5-a7ea3a4b9ea4",
+    "Id": "59ca820b-156a-4623-b1a0-d640935ba368",
     "Text": "Le LOCATAIRE ne peut placer d'inscriptions, de plaques, d'enseignes ou d'autres",
     "Geometry": {
       "BoundingBox": {
@@ -2787,10 +2971,12 @@
           "Y": 0.688369870185852
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.04476165771484
   },
   {
-    "Id": "eeb226f9-378f-452b-86ab-60506182ccf5",
+    "Id": "1036219a-ef39-4f22-be94-f077ef23b06d",
     "Text": "dispositifs du même genre, sous réserve de celles expressément autorisées dans le",
     "Geometry": {
       "BoundingBox": {
@@ -2817,10 +3003,12 @@
           "Y": 0.7116079330444336
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.23175811767578
   },
   {
-    "Id": "dc5cb891-6f5c-493a-ac65-d139a0a84c44",
+    "Id": "3b2d7dd7-019d-444e-bac0-5e6f11f2f1f4",
     "Text": "contrat de franchise, que moyennant approbation écrite et préalable du BAILLEUR.",
     "Geometry": {
       "BoundingBox": {
@@ -2847,10 +3035,12 @@
           "Y": 0.7348507046699524
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.51178741455078
   },
   {
-    "Id": "35671036-2f3a-4e57-b430-fcc27ec29e8d",
+    "Id": "c4f6d5b8-3769-456e-b881-e12a50418d7a",
     "Text": "4°) Entretien et réparations",
     "Geometry": {
       "BoundingBox": {
@@ -2877,10 +3067,12 @@
           "Y": 0.7714484930038452
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 98.52568817138672
   },
   {
-    "Id": "d925c3b3-7aa7-41b0-a2a7-bf787b759a22",
+    "Id": "1e7f1f3c-7441-4ba3-9784-902b56bf088f",
     "Text": "Le LOCATAIRE devra entretenir les biens loués en bon état. A cette fin, il effectuera, à",
     "Geometry": {
       "BoundingBox": {
@@ -2907,10 +3099,12 @@
           "Y": 0.8078506588935852
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 98.14936828613281
   },
   {
-    "Id": "27c38f0e-814f-4a69-93ea-07ac4878cc43",
+    "Id": "d6d8fea9-0b1a-4536-be72-10637d843468",
     "Text": "ses frais, pendant toute la durée du bail, les réparations, les travaux d'entretien et le",
     "Geometry": {
       "BoundingBox": {
@@ -2937,10 +3131,12 @@
           "Y": 0.8309369683265686
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 99.47041320800781
   },
   {
-    "Id": "51500007-fb5f-465b-a166-008c433b3573",
+    "Id": "cf21b470-639a-4c05-881c-79aa99845c42",
     "Text": "nettoyage qui s'avèreraient nécessaires. Il pourvoira dans tous les cas, au",
     "Geometry": {
       "BoundingBox": {
@@ -2967,10 +3163,12 @@
           "Y": 0.8542473316192627
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 98.88948822021484
   },
   {
-    "Id": "991bd24e-0aed-4efe-b549-55938be84943",
+    "Id": "c2d87396-e920-4af0-aaea-f7362fcc0f1c",
     "Text": "remplacement des agencements suivants : carrelage, climatisation, enseignes.",
     "Geometry": {
       "BoundingBox": {
@@ -2997,10 +3195,12 @@
           "Y": 0.8776265382766724
         }
       ]
-    }
+    },
+    "Page": 4,
+    "Confidence": 98.00938415527344
   },
   {
-    "Id": "4fa2a7f0-d765-48ea-a180-95c015946d3a",
+    "Id": "08606ad6-e925-4449-8061-90d92ee1ce0b",
     "Text": "Il répondra de toutes les détériorations survenant par suite d'abus de jouissance soit",
     "Geometry": {
       "BoundingBox": {
@@ -3027,10 +3227,12 @@
           "Y": 0.08813469856977463
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.4095687866211
   },
   {
-    "Id": "56f51074-12a8-433a-b73e-a73b25ecfd5e",
+    "Id": "646ffa29-4556-4d2b-9556-c64f9253897a",
     "Text": "de son fait, soit du fait d'un tiers même si les réparations sont normalement à la",
     "Geometry": {
       "BoundingBox": {
@@ -3057,10 +3259,12 @@
           "Y": 0.11102760583162308
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.37060546875
   },
   {
-    "Id": "d9f7469f-d5c0-4a1f-ac91-fdae87fa4021",
+    "Id": "90cfd1fd-5866-47c6-b859-11a1c4f4344b",
     "Text": "charge du BAILLEUR.",
     "Geometry": {
       "BoundingBox": {
@@ -3087,10 +3291,12 @@
           "Y": 0.133464053273201
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.74695587158203
   },
   {
-    "Id": "52a03176-b056-4b91-9c85-5733d4c949f6",
+    "Id": "a9c64881-44ce-42ea-9dcf-f8ae4a5bc337",
     "Text": "Le LOCATAIRE s'engage à occuper les lieux en bon père de famille et à les maintenir en",
     "Geometry": {
       "BoundingBox": {
@@ -3117,10 +3323,12 @@
           "Y": 0.17076218128204346
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.45372009277344
   },
   {
-    "Id": "5cfca33d-8d7e-4cd8-8856-3f67d3b6a00d",
+    "Id": "34b6effa-fb8e-432f-a816-6896f5d42196",
     "Text": "parfait état d'entretien pendant toute la durée du bail.",
     "Geometry": {
       "BoundingBox": {
@@ -3147,10 +3355,12 @@
           "Y": 0.1930537074804306
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.45870971679688
   },
   {
-    "Id": "87027435-cbe3-4da6-9bfc-004e8ce49372",
+    "Id": "ffe40421-ce41-476f-812d-dab31e399462",
     "Text": "Sans préjudice de ce qui est dit à l'article ci-après, le LOCATAIRE aura à cet égard la",
     "Geometry": {
       "BoundingBox": {
@@ -3177,10 +3387,12 @@
           "Y": 0.23073247075080872
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.25825500488281
   },
   {
-    "Id": "29e2001a-b494-4dc3-b5e7-9e97204c64b8",
+    "Id": "36fdb81c-e01d-4a4c-bcb9-34754b199d62",
     "Text": "charge de toutes les réparations réputées locatives par la loi, outre l'entretien des",
     "Geometry": {
       "BoundingBox": {
@@ -3207,10 +3419,12 @@
           "Y": 0.2536695897579193
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.42913055419922
   },
   {
-    "Id": "23b72a95-aa86-4925-9593-e4fec988a078",
+    "Id": "412a5f57-a171-44d9-9125-d8425bf308a6",
     "Text": "peintures extérieures.",
     "Geometry": {
       "BoundingBox": {
@@ -3237,10 +3451,12 @@
           "Y": 0.2759476900100708
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.15477752685547
   },
   {
-    "Id": "6113506b-42bd-47df-903f-ca595b9e0f11",
+    "Id": "bbcf918c-e6d1-4b7a-ab12-fe3778b53841",
     "Text": "Il entretiendra les volets et autres fermetures, les toitures vitrées, et les fera réparer au",
     "Geometry": {
       "BoundingBox": {
@@ -3267,10 +3483,12 @@
           "Y": 0.31320512294769287
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.24666595458984
   },
   {
-    "Id": "fb279121-5405-44af-bdc5-b1923473bf77",
+    "Id": "34426f43-56f8-4a71-9543-cbb12ee81eff",
     "Text": "besoin.",
     "Geometry": {
       "BoundingBox": {
@@ -3297,10 +3515,12 @@
           "Y": 0.3327469527721405
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.951171875
   },
   {
-    "Id": "9cf1b6ee-68c5-4c52-a744-f6edf3231bd3",
+    "Id": "c0129345-5264-4f66-ae8b-e556d0f610cd",
     "Text": "Il préservera les pompes, robinets, tuyaux d'eau et de décharge contre les effets et les",
     "Geometry": {
       "BoundingBox": {
@@ -3327,10 +3547,12 @@
           "Y": 0.37327560782432556
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.46061706542969
   },
   {
-    "Id": "ad22620f-9780-4785-a065-9149ca3ef12c",
+    "Id": "362e7a9a-5dd3-41d6-b9b4-7e26a46d2d11",
     "Text": "dégâts du gel et devra veiller, sous sa responsabilité, à ce que les toilettes, égouts et",
     "Geometry": {
       "BoundingBox": {
@@ -3357,10 +3579,12 @@
           "Y": 0.39630311727523804
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.18276977539062
   },
   {
-    "Id": "9faca5a0-bfa4-4a9c-b1bb-f6e039e56824",
+    "Id": "8fea04e4-7b42-463a-8f1d-9ad4c1387166",
     "Text": "tuyaux ne soient jamais obstrués par suite de son fait ou de celui de ceux dont il",
     "Geometry": {
       "BoundingBox": {
@@ -3387,10 +3611,12 @@
           "Y": 0.4185972809791565
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.5096664428711
   },
   {
-    "Id": "9db10761-776a-4ff8-b298-ab3e8396d4dc",
+    "Id": "611583b3-8482-447d-bac2-e732d779cf7d",
     "Text": "répond y compris sa clientèle.",
     "Geometry": {
       "BoundingBox": {
@@ -3417,10 +3643,12 @@
           "Y": 0.44183114171028137
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 92.91182708740234
   },
   {
-    "Id": "b2653ae7-458d-409b-b3a6-17194b715338",
+    "Id": "71ca6488-cb7e-49ca-8d71-6008220e1d27",
     "Text": "En outre, le LOCATAIRE devra signaler immédiatement au BAILLEUR tout dommage ou",
     "Geometry": {
       "BoundingBox": {
@@ -3447,10 +3675,12 @@
           "Y": 0.4783293306827545
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.50164031982422
   },
   {
-    "Id": "46f2b601-77e4-4d3a-9a90-2ec0204a3329",
+    "Id": "4cfb80bd-4fe9-4914-aa65-c47066baaa11",
     "Text": "dégât important dont serait affecté l'immeuble.",
     "Geometry": {
       "BoundingBox": {
@@ -3477,10 +3707,12 @@
           "Y": 0.501335084438324
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 98.56664276123047
   },
   {
-    "Id": "012fab2c-234a-43c8-9532-528234b64aed",
+    "Id": "bd287dfa-4ea7-4cb3-87a2-2662e1de857b",
     "Text": "5°) Travaux",
     "Geometry": {
       "BoundingBox": {
@@ -3507,10 +3739,12 @@
           "Y": 0.5382176041603088
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 94.21855163574219
   },
   {
-    "Id": "29f53190-4c4f-4bd5-98d5-0eead3112900",
+    "Id": "f73d728f-bf9e-44de-9041-63c9cf08503c",
     "Text": "Le LOCATAIRE devra souffrir tous travaux que le BAILLEUR jugerait nécessaires en",
     "Geometry": {
       "BoundingBox": {
@@ -3537,10 +3771,12 @@
           "Y": 0.575191080570221
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.4339370727539
   },
   {
-    "Id": "8b89bceb-0a5a-4cb6-a33e-970867ea10d7",
+    "Id": "f56debb1-1726-4b5a-81c5-43a8a740ff77",
     "Text": "cours de bail sur l'immeuble ou dans les locaux loués, sans pouvoir prétendre à",
     "Geometry": {
       "BoundingBox": {
@@ -3567,10 +3803,12 @@
           "Y": 0.598003089427948
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.15583038330078
   },
   {
-    "Id": "d358ae63-656b-445a-87c7-3e0bc5d43bb5",
+    "Id": "e8b85a37-1601-4f0e-b0b3-f5b5cc71d506",
     "Text": "aucune indemnité ; cependant, si les travaux durent plus de 40 jours, il pourra",
     "Geometry": {
       "BoundingBox": {
@@ -3597,10 +3835,12 @@
           "Y": 0.620965838432312
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 98.86309814453125
   },
   {
-    "Id": "0144102a-e913-4929-a094-ba87ea5a1662",
+    "Id": "b1593147-42ee-4479-aed2-a3673c420ae1",
     "Text": "prétendre à une diminution de loyer. Cette diminution sera déterminée en fonction de",
     "Geometry": {
       "BoundingBox": {
@@ -3627,10 +3867,12 @@
           "Y": 0.643925130367279
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.35611724853516
   },
   {
-    "Id": "79c82bb9-0619-4d6b-acd8-9fe2a191b01f",
+    "Id": "7eaf7a96-4d15-433f-8d03-6c7469759653",
     "Text": "la durée des travaux et de l'importance de la privation de jouissance.",
     "Geometry": {
       "BoundingBox": {
@@ -3657,10 +3899,12 @@
           "Y": 0.6665586829185486
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.42195129394531
   },
   {
-    "Id": "8bef1f54-4804-4d68-a32f-af0171c4295c",
+    "Id": "5526003d-fcea-4025-8def-939d7c21c438",
     "Text": "Le LOCATAIRE supportera sans indemnité de la part du BAILLEUR tous travaux qui",
     "Geometry": {
       "BoundingBox": {
@@ -3687,10 +3931,12 @@
           "Y": 0.7034144401550293
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.69676208496094
   },
   {
-    "Id": "600393b9-5d2e-4151-b6d0-ea69c6a206c1",
+    "Id": "365a436a-bf1b-4591-bcc1-f2a4f427b998",
     "Text": "seraient exécutés sur la voie publique ou par des voisins, alors même qu'il en",
     "Geometry": {
       "BoundingBox": {
@@ -3717,10 +3963,12 @@
           "Y": 0.726686418056488
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.43236541748047
   },
   {
-    "Id": "b3767abf-ad5c-4302-9fcd-dd71489d522f",
+    "Id": "f3080620-22e9-4c5c-b9db-f7c6794ec6de",
     "Text": "résulterait une gêne pour son exploitation.",
     "Geometry": {
       "BoundingBox": {
@@ -3747,10 +3995,12 @@
           "Y": 0.7494747638702393
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.00081634521484
   },
   {
-    "Id": "6fde8967-fd46-43ee-9470-1da1bc84e082",
+    "Id": "915173a4-7211-4da5-99eb-0f11a4ab1e72",
     "Text": "Le LOCATAIRE devra aviser immédiatement le BAILLEUR de toute détérioration ou",
     "Geometry": {
       "BoundingBox": {
@@ -3777,10 +4027,12 @@
           "Y": 0.783702552318573
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.4658203125
   },
   {
-    "Id": "3105ec92-0a89-4799-b778-8edce8c81886",
+    "Id": "da2aa4c0-e853-4a34-a954-cc3396a35c95",
     "Text": "dégradation des lieux loués pouvant donner lieu à des réparations à sa charge.",
     "Geometry": {
       "BoundingBox": {
@@ -3807,10 +4059,12 @@
           "Y": 0.8090174794197083
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.21879577636719
   },
   {
-    "Id": "cbba349b-4f21-4ec3-8d57-d0684b3f14da",
+    "Id": "73334942-f046-43e5-a953-bade9a2b1981",
     "Text": "Le LOCATAIRE devra obtenir l'autorisation préalable du BAILLEUR pour réaliser des",
     "Geometry": {
       "BoundingBox": {
@@ -3837,10 +4091,12 @@
           "Y": 0.8460115194320679
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.46410369873047
   },
   {
-    "Id": "7b9882a8-18a9-4cf7-8a7d-e4f548c040f3",
+    "Id": "3a6e9928-2d72-434b-a62e-840030996550",
     "Text": "travaux ou des transformations quels qu'ils soient.",
     "Geometry": {
       "BoundingBox": {
@@ -3867,10 +4123,12 @@
           "Y": 0.8690634965896606
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.41044616699219
   },
   {
-    "Id": "39d16dd8-9c0b-4b50-90c9-c20f667f8b4d",
+    "Id": "b64c79d3-35a8-4b8a-9d83-96cc5e7a3a7f",
     "Text": "En cas de travaux ou simplement afin de constater l'état des locaux loués, le",
     "Geometry": {
       "BoundingBox": {
@@ -3897,10 +4155,12 @@
           "Y": 0.9059872031211853
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 99.32769775390625
   },
   {
-    "Id": "1b589cf5-8355-448c-8307-9c10b86bc339",
+    "Id": "5d9de615-bdc6-42c9-849a-70acd79f9ab3",
     "Text": "LOCATAIRE devra laisser le BAILLEUR, son représentant ou son architecte, pénétrer",
     "Geometry": {
       "BoundingBox": {
@@ -3927,10 +4187,12 @@
           "Y": 0.9290281534194946
         }
       ]
-    }
+    },
+    "Page": 5,
+    "Confidence": 98.9505844116211
   },
   {
-    "Id": "c86ff492-4fab-4d46-8154-fee87a551444",
+    "Id": "ff274bd0-39b4-45ca-b93b-da3b94d7c0f8",
     "Text": "dans ces lieux, durant les heures ouvrables.",
     "Geometry": {
       "BoundingBox": {
@@ -3957,10 +4219,12 @@
           "Y": 0.08711297065019608
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.73834991455078
   },
   {
-    "Id": "32aeb577-501c-44eb-8501-c7189a914ec3",
+    "Id": "ad233f9f-ac3e-4b4c-9a3d-82b0abf73d2c",
     "Text": "6°) Changements embellissements",
     "Geometry": {
       "BoundingBox": {
@@ -3987,10 +4251,12 @@
           "Y": 0.12547937035560608
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 97.3365707397461
   },
   {
-    "Id": "3ec7b022-3222-42b4-ad48-0eeeff1f1366",
+    "Id": "75dac15c-1d85-4b69-8837-12c7594e63cd",
     "Text": "Le LOCATAIRE pourra aménager la disposition des locaux à ses frais exclusifs.",
     "Geometry": {
       "BoundingBox": {
@@ -4017,10 +4283,12 @@
           "Y": 0.16184361279010773
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.41969299316406
   },
   {
-    "Id": "10455961-2196-4168-a888-fef4202d4aa3",
+    "Id": "c9ea3105-9161-4aa5-907d-33aa84d766a1",
     "Text": "7°) Visite des locaux",
     "Geometry": {
       "BoundingBox": {
@@ -4047,10 +4315,12 @@
           "Y": 0.19877782464027405
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.31660461425781
   },
   {
-    "Id": "d4d05206-31ae-4243-b946-2a26ad7e49e6",
+    "Id": "bbf8ce6a-1673-4807-966e-a2f2fbbe1600",
     "Text": "Le LOCATAIRE devra laisser visiter les locaux loués, par le BAILLEUR ou son",
     "Geometry": {
       "BoundingBox": {
@@ -4077,10 +4347,12 @@
           "Y": 0.23591387271881104
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.62377166748047
   },
   {
-    "Id": "f19c0648-026b-4e69-8141-6a027feb3ed5",
+    "Id": "990daf64-1b4c-492c-aeeb-bab616d6f0af",
     "Text": "représentant, au moins une fois par an et au cours des six mois avant l'expiration du",
     "Geometry": {
       "BoundingBox": {
@@ -4107,10 +4379,12 @@
           "Y": 0.25889936089515686
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.42922973632812
   },
   {
-    "Id": "c8e744b7-7d8e-4593-b7cd-367e160f3c5d",
+    "Id": "eb7152c0-ed5e-41a3-866d-7fcbf7af30e0",
     "Text": "bail pendant les jours et les heures ouvrables et en laissant, si besoin est, apposer un",
     "Geometry": {
       "BoundingBox": {
@@ -4137,10 +4411,12 @@
           "Y": 0.2822311222553253
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.61341857910156
   },
   {
-    "Id": "80dc40d7-c6d6-4ee8-b0cc-7737ec8b97ec",
+    "Id": "8cfa40f2-d3ee-4db4-9f80-f0b611b0b56a",
     "Text": "écriteau pour indiquer que les locaux sont à vendre ou à louer.",
     "Geometry": {
       "BoundingBox": {
@@ -4167,10 +4443,12 @@
           "Y": 0.304209440946579
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.43301391601562
   },
   {
-    "Id": "12b1b48d-0dd4-4ccb-a817-758062d10c10",
+    "Id": "39444d5b-95c4-42e4-b3a8-b14b5719ca68",
     "Text": "8°) Copropriété",
     "Geometry": {
       "BoundingBox": {
@@ -4197,10 +4475,12 @@
           "Y": 0.34137582778930664
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 94.67205047607422
   },
   {
-    "Id": "2d75eb6e-e05a-4c3e-93b1-0fdd86cd97c2",
+    "Id": "d3fb0762-46ec-4daf-986f-96f674cf37f7",
     "Text": "Le LOCATAIRE devra respecter toutes les obligations et toutes les règles de sécurité",
     "Geometry": {
       "BoundingBox": {
@@ -4227,10 +4507,12 @@
           "Y": 0.3786761164665222
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.63475799560547
   },
   {
-    "Id": "ef5c5eb5-90ce-4dba-a841-e2de5d2944ec",
+    "Id": "fb9e6de9-40df-48cb-bc33-871947f24d6c",
     "Text": "pouvant résulter du Règlement de Copropriété et toute instruction du syndic de",
     "Geometry": {
       "BoundingBox": {
@@ -4257,10 +4539,12 @@
           "Y": 0.40156057476997375
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.24457550048828
   },
   {
-    "Id": "fa9a2c54-c496-4e08-89e5-93694db91ec4",
+    "Id": "0959e94c-c402-4468-8fec-6e06f540f81a",
     "Text": "l'immeuble.",
     "Geometry": {
       "BoundingBox": {
@@ -4287,10 +4571,12 @@
           "Y": 0.42192092537879944
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 97.25048065185547
   },
   {
-    "Id": "757d3040-a986-4a94-880a-377ff082326f",
+    "Id": "5258982f-da68-45ef-abf6-c4cfc99db528",
     "Text": "9°) Paiement",
     "Geometry": {
       "BoundingBox": {
@@ -4317,10 +4603,12 @@
           "Y": 0.4606665074825287
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 97.38121795654297
   },
   {
-    "Id": "29394f6f-14df-42cd-8958-8c905c712a8b",
+    "Id": "577adbe1-639d-4ef5-83c7-8427c3d468cb",
     "Text": "De convention expresse entre les parties, il est convenu que le LOCATAIRE confère",
     "Geometry": {
       "BoundingBox": {
@@ -4347,10 +4635,12 @@
           "Y": 0.4985477328300476
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.50221252441406
   },
   {
-    "Id": "0eab95ae-513d-47d2-a726-98041b0bf175",
+    "Id": "61b9cb1b-f8ef-4e26-92c9-e3b20ff5e9d6",
     "Text": "d'ores et déjà au BAILLEUR l'autorisation de prélever automatiquement sur le compte",
     "Geometry": {
       "BoundingBox": {
@@ -4377,10 +4667,12 @@
           "Y": 0.5212051272392273
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.32772064208984
   },
   {
-    "Id": "c779415a-4794-4465-93be-212f1ae3ec77",
+    "Id": "83533f54-2a6e-4325-89b8-b463ef63c69b",
     "Text": "FR76 3456 7890 18500 que le LOCATAIRE s'engage",
     "Geometry": {
       "BoundingBox": {
@@ -4407,10 +4699,12 @@
           "Y": 0.544190526008606
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 93.92265319824219
   },
   {
-    "Id": "fa76b9a0-0f99-4f9e-b6ed-329d81d57e2b",
+    "Id": "7280ff71-0fde-4505-a0ae-302ba9adf5f8",
     "Text": "à ouvrir auprès d'un organisme financier, le 5 de chaque mois civil le montant du loyer",
     "Geometry": {
       "BoundingBox": {
@@ -4437,10 +4731,12 @@
           "Y": 0.5670778155326843
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.49153900146484
   },
   {
-    "Id": "1e945175-8bad-4fc6-bbcf-8f9b02230508",
+    "Id": "85ac1f77-f58c-47ba-9b70-d28d4430e213",
     "Text": "concernant le mois précédent.",
     "Geometry": {
       "BoundingBox": {
@@ -4467,10 +4763,12 @@
           "Y": 0.5890435576438904
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.1041030883789
   },
   {
-    "Id": "95a69088-3d78-427b-8dd8-b8cf07b99be5",
+    "Id": "53365209-373f-4b3e-855b-c521ab819368",
     "Text": "Pour l'exécution de la présente clause, le LOCATAIRE s'engage à remettre dès que le",
     "Geometry": {
       "BoundingBox": {
@@ -4497,10 +4795,12 @@
           "Y": 0.6268794536590576
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.09257507324219
   },
   {
-    "Id": "403ac43f-3d72-4dd8-b15e-4aeeb932375c",
+    "Id": "0e0dcfc7-00f8-4733-a593-0d4d8f52db42",
     "Text": "BAILLEUR lui en fera la demande écrite toutes les autorisations et documents",
     "Geometry": {
       "BoundingBox": {
@@ -4527,10 +4827,12 @@
           "Y": 0.6466635465621948
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.6383285522461
   },
   {
-    "Id": "a7e1afc0-82c6-46d7-9032-688480a3f8aa",
+    "Id": "796ccaa5-b4e4-4fda-a7aa-666fdd5e80b3",
     "Text": "nécessaires et notamment les formulaires de demande de prélèvement, autorisations",
     "Geometry": {
       "BoundingBox": {
@@ -4557,10 +4859,12 @@
           "Y": 0.6721119284629822
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.37886810302734
   },
   {
-    "Id": "2db17f95-dac1-4d09-b7c5-c1d146daba3b",
+    "Id": "2e98ce6c-78c4-45cf-b7c1-e6b7963a8703",
     "Text": "de prélèvement, relevé d'identité bancaire (RIB), postal (RIP), caisse d'épargne (RICE)",
     "Geometry": {
       "BoundingBox": {
@@ -4587,10 +4891,12 @@
           "Y": 0.6944133043289185
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.1357650756836
   },
   {
-    "Id": "62089598-85dd-4ee9-8452-a36680de3972",
+    "Id": "a3f3c1c7-19e8-464c-a290-026c4eebf532",
     "Text": "En cas de changement d'organisme financier ou de compte, le LOCATAIRE",
     "Geometry": {
       "BoundingBox": {
@@ -4617,10 +4923,12 @@
           "Y": 0.7551841735839844
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.52143096923828
   },
   {
-    "Id": "ca6e4038-823d-4f96-8cdd-cdf7e8640b2e",
+    "Id": "214291ef-f1be-464d-bc4c-7045d4b36383",
     "Text": "communiquera immédiatement toute modification qui pourrait intervenir et s'oblige à",
     "Geometry": {
       "BoundingBox": {
@@ -4647,10 +4955,12 @@
           "Y": 0.7772472500801086
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.26038360595703
   },
   {
-    "Id": "6e1bb6d6-8994-4431-851e-4f2e3684e9d4",
+    "Id": "4e5d49e3-8ad1-43b8-802a-c117da8d116f",
     "Text": "fournir dans les huit jours qui suivront ces modifications tous les nouveaux documents",
     "Geometry": {
       "BoundingBox": {
@@ -4677,10 +4987,12 @@
           "Y": 0.8008152842521667
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.74977111816406
   },
   {
-    "Id": "ee9d3978-8160-4574-80bd-46d35400fce5",
+    "Id": "7876fe31-7d8f-4191-8c51-dc5bf1f879bf",
     "Text": "et autorisations nécessaires à l'accomplissement de la présente clause.",
     "Geometry": {
       "BoundingBox": {
@@ -4707,10 +5019,12 @@
           "Y": 0.8227274417877197
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 98.86627960205078
   },
   {
-    "Id": "c5807d42-05b7-402c-99f6-bf684e6fd59c",
+    "Id": "69a5c8b4-74c2-47ee-88c3-8dd8b8921971",
     "Text": "Les parties conviennent qu'en ce qui concerne les montants dus au titre des loyers, le",
     "Geometry": {
       "BoundingBox": {
@@ -4737,10 +5051,12 @@
           "Y": 0.8601028919219971
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.59886932373047
   },
   {
-    "Id": "dd365e62-272e-4c90-9fed-ba97f0f5b39e",
+    "Id": "4be4957c-73fa-4cd8-b553-c924a907a5ed",
     "Text": "LOCATAIRE devra approvisionner son compte en vue des prélèvements en fonction du",
     "Geometry": {
       "BoundingBox": {
@@ -4767,10 +5083,12 @@
           "Y": 0.8837676048278809
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.25550079345703
   },
   {
-    "Id": "286f3911-9a62-459c-afc3-038f5ab7ca44",
+    "Id": "b4538e88-f277-4511-97ac-6b54060322e7",
     "Text": "chiffre d'affaires HT concerné et des taux fixés dans le contrat même si les factures ne",
     "Geometry": {
       "BoundingBox": {
@@ -4797,10 +5115,12 @@
           "Y": 0.9034610390663147
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.51254272460938
   },
   {
-    "Id": "e3f5ef46-1a0f-4269-9c23-106db6812aa9",
+    "Id": "86a0194a-15b0-421f-bd7d-e42f82edb8da",
     "Text": "lui étaient pas parvenues.",
     "Geometry": {
       "BoundingBox": {
@@ -4827,10 +5147,12 @@
           "Y": 0.929061233997345
         }
       ]
-    }
+    },
+    "Page": 6,
+    "Confidence": 99.52995300292969
   },
   {
-    "Id": "d0578343-7ee4-43b2-96a1-0993edbac078",
+    "Id": "fe2f7bff-1c58-4ec8-a1ea-7361f6abdb89",
     "Text": "En ce qui concerne les autres règlements et pour permettre au LOCATAIRE",
     "Geometry": {
       "BoundingBox": {
@@ -4857,10 +5179,12 @@
           "Y": 0.08802615106105804
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.45342254638672
   },
   {
-    "Id": "14963a03-51dd-4226-b247-13866a0abcb9",
+    "Id": "70a9fb92-e3b7-48a2-a381-68e3388720e4",
     "Text": "d'approvisionner son compte en temps voulu, le BAILLEUR adressera quinze jours",
     "Geometry": {
       "BoundingBox": {
@@ -4887,10 +5211,12 @@
           "Y": 0.11125169694423676
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.37307739257812
   },
   {
-    "Id": "7f57484b-f259-44b9-9434-8bb6dca79b0a",
+    "Id": "cfff37ff-7d15-4003-aceb-6072e97d556e",
     "Text": "calendaires avant chaque échéance les factures à prélever.",
     "Geometry": {
       "BoundingBox": {
@@ -4917,10 +5243,12 @@
           "Y": 0.13315172493457794
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.35960388183594
   },
   {
-    "Id": "d2907a54-22f1-4877-b287-128adc55f62b",
+    "Id": "434336df-f304-47b9-94ff-07ae92405eae",
     "Text": "10°) Contributions impôts et taxes",
     "Geometry": {
       "BoundingBox": {
@@ -4947,10 +5275,12 @@
           "Y": 0.17065005004405975
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 98.59012603759766
   },
   {
-    "Id": "756cc853-8d2d-41e1-ad63-799a0c69a33e",
+    "Id": "b37a88cb-2d05-4eae-aacb-05468c8de05f",
     "Text": "Le LOCATAIRE devra payer toutes quittances liées à l'usage de son fonds et notamment",
     "Geometry": {
       "BoundingBox": {
@@ -4977,10 +5307,12 @@
           "Y": 0.20748193562030792
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.54719543457031
   },
   {
-    "Id": "450b2cb1-d94f-4339-8cea-8164c35a4a6c",
+    "Id": "484dec2d-09e1-441c-85ce-9c08a70a3a8c",
     "Text": "d'eau, de gaz, d'électricité de manière que le BAILLEUR ne puisse jamais être",
     "Geometry": {
       "BoundingBox": {
@@ -5007,10 +5339,12 @@
           "Y": 0.2307949811220169
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.1887435913086
   },
   {
-    "Id": "e1bab40c-1164-45d0-ae1c-ea85c1d33c64",
+    "Id": "36a46a9d-2483-4ca0-af4b-4db54b197eef",
     "Text": "recherché à ce sujet, ainsi que les taxes de toute nature le concernant",
     "Geometry": {
       "BoundingBox": {
@@ -5037,10 +5371,12 @@
           "Y": 0.2538398802280426
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.5204086303711
   },
   {
-    "Id": "08b3a540-9467-4ef4-a875-030c5256685f",
+    "Id": "ec99bc6b-db9c-4d8a-9a17-6461f27691cb",
     "Text": "personnellement ou relatives à son commerce, et rembourser au BAILLEUR toutes les",
     "Geometry": {
       "BoundingBox": {
@@ -5067,10 +5403,12 @@
           "Y": 0.2759602665901184
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.46743774414062
   },
   {
-    "Id": "4d43060c-c38e-40c3-8582-db2326d7799d",
+    "Id": "4eea47d0-582d-4230-b575-c0597f315157",
     "Text": "taxes que celui-ci serait amené à payer relativement aux locaux loués.",
     "Geometry": {
       "BoundingBox": {
@@ -5097,10 +5435,12 @@
           "Y": 0.2988647520542145
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.58264923095703
   },
   {
-    "Id": "5a043340-b8db-4ac2-80f5-c0804ae84e9c",
+    "Id": "78ef9b4b-608b-4f97-a8de-1d8909ef86a7",
     "Text": "11°) Assurances",
     "Geometry": {
       "BoundingBox": {
@@ -5127,10 +5467,12 @@
           "Y": 0.3349829912185669
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 98.32360076904297
   },
   {
-    "Id": "c0f9d69f-28a3-423f-83bd-ab597cf69d6e",
+    "Id": "7cff5e8b-f0d5-468f-8a5a-e52151ebc1df",
     "Text": "Dans le cadre du respect des obligations mises à sa charge par les présentes, le",
     "Geometry": {
       "BoundingBox": {
@@ -5157,10 +5499,12 @@
           "Y": 0.37316226959228516
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.502197265625
   },
   {
-    "Id": "cf46ecc7-cece-46f7-b21a-d4167b76117d",
+    "Id": "e2c99fb9-7e9d-4a4c-afdc-470ca66b7b3a",
     "Text": "LOCATAIRE devra s'assurer, pour des sommes suffisantes et auprès d'une compagnie",
     "Geometry": {
       "BoundingBox": {
@@ -5187,10 +5531,12 @@
           "Y": 0.3963851034641266
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.61944580078125
   },
   {
-    "Id": "7b6b649f-76c4-4906-8b09-7d04f2d683aa",
+    "Id": "2f94c416-e340-4601-a76e-aa7df3ec76fd",
     "Text": "notoirement solvable, contre les risques d'incendie, d'explosion, dégâts des eaux et",
     "Geometry": {
       "BoundingBox": {
@@ -5217,10 +5563,12 @@
           "Y": 0.41849106550216675
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 98.99383544921875
   },
   {
-    "Id": "7ffaea7c-f296-4c33-8fab-1e0b6da0445e",
+    "Id": "bc7b723d-9d93-434c-ab9f-e48f49be7a8b",
     "Text": "contre les risques de sa profession ainsi que les risques locatifs et le recours des",
     "Geometry": {
       "BoundingBox": {
@@ -5247,10 +5595,12 @@
           "Y": 0.44144806265830994
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.68590545654297
   },
   {
-    "Id": "c33f59f6-7be7-49e3-bf0a-788a100e82e8",
+    "Id": "ba859b9f-1921-4496-828c-d6c9a6c37b20",
     "Text": "voisins.",
     "Geometry": {
       "BoundingBox": {
@@ -5277,10 +5627,12 @@
           "Y": 0.46125245094299316
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.88121795654297
   },
   {
-    "Id": "6b78235a-7325-48cd-a7f0-ffd2ac90711d",
+    "Id": "2a5dedaa-4e5e-4698-bf57-5849ce66201a",
     "Text": "En cas de sinistre, il devra en informer le BAILLEUR et la compagnie, dans le délai de 8",
     "Geometry": {
       "BoundingBox": {
@@ -5307,10 +5659,12 @@
           "Y": 0.5014486908912659
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.43183135986328
   },
   {
-    "Id": "7042d504-2945-4d3d-9cab-fb093f454aad",
+    "Id": "b5c87bea-7344-4eb1-8bfc-7dbaf9f158df",
     "Text": "JOURS.",
     "Geometry": {
       "BoundingBox": {
@@ -5337,10 +5691,12 @@
           "Y": 0.521522581577301
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.88201141357422
   },
   {
-    "Id": "a2c4a02b-2417-42c1-8fa1-b5fa50cf64a0",
+    "Id": "ef48ee23-d01a-468c-be20-edf5fde30423",
     "Text": "A toute réquisition du BAILLEUR, il devra justifier du paiement des primes (s'il y a lieu",
     "Geometry": {
       "BoundingBox": {
@@ -5367,10 +5723,12 @@
           "Y": 0.5611127614974976
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 95.45513153076172
   },
   {
-    "Id": "ca4c93ed-bfc6-4909-bea2-14ba5b0aeee4",
+    "Id": "b7f7ef85-0af8-4502-b4ae-79f1f60310a0",
     "Text": "et surprimes liées à la nature de son activité).",
     "Geometry": {
       "BoundingBox": {
@@ -5397,10 +5755,12 @@
           "Y": 0.5835423469543457
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.28184509277344
   },
   {
-    "Id": "18dcfc7a-0601-48b6-b953-9837f9f70204",
+    "Id": "fcda035c-e6fd-4ad9-a440-654a57104157",
     "Text": "12°) Responsabilité et recours",
     "Geometry": {
       "BoundingBox": {
@@ -5427,10 +5787,12 @@
           "Y": 0.6206870675086975
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 98.53540802001953
   },
   {
-    "Id": "64f1b064-a64b-44bd-b2b5-22db5dfb6957",
+    "Id": "979eafec-8cc8-4ab9-a79a-2703fc58c9ba",
     "Text": "Le LOCATAIRE ne pourra en aucun cas tenir le BAILLEUR pour responsable de vols ou",
     "Geometry": {
       "BoundingBox": {
@@ -5457,10 +5819,12 @@
           "Y": 0.6580156087875366
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.5793228149414
   },
   {
-    "Id": "48b1da5a-cf77-463f-a177-c6ec0d799665",
+    "Id": "29c4ed74-6e99-4e46-98c3-ea7fdd6605a6",
     "Text": "détériorations qui pourraient être commis chez lui et ne pourra lui réclamer aucune",
     "Geometry": {
       "BoundingBox": {
@@ -5487,10 +5851,12 @@
           "Y": 0.6803717017173767
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.36903381347656
   },
   {
-    "Id": "a741bc22-2a3a-49c8-8cc1-ae0e0bfa8d86",
+    "Id": "6e94f9a0-cbe9-47ba-9246-7693022498fe",
     "Text": "indemnité, ni diminution de loyer à ce titre.",
     "Geometry": {
       "BoundingBox": {
@@ -5517,10 +5883,12 @@
           "Y": 0.7032961249351501
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.25858306884766
   },
   {
-    "Id": "630a58a9-a397-4ee5-a6b2-4bcd7eb25054",
+    "Id": "27a26252-0dab-4c37-993d-58f82700c2ad",
     "Text": "ARTICLE 7 : SANCTION DES OBLIGATIONS",
     "Geometry": {
       "BoundingBox": {
@@ -5547,10 +5915,12 @@
           "Y": 0.7649194598197937
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 98.09557342529297
   },
   {
-    "Id": "0a760547-34c4-4f3e-8fbd-03526023c49f",
+    "Id": "70c93b61-9469-4ba7-ae71-665953d9c3a7",
     "Text": "En cas d'inexécution par le LOCATAIRE de l'une quelconque de ses obligations légales",
     "Geometry": {
       "BoundingBox": {
@@ -5577,10 +5947,12 @@
           "Y": 0.812271773815155
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.3038330078125
   },
   {
-    "Id": "b096ff17-4564-47c5-aa32-0bf0a319a238",
+    "Id": "cfe57bb9-7d89-4b1b-aede-2469242e0945",
     "Text": "et/ou contractuelles résultant du présent bail et de ses éventuels renouvellements, et",
     "Geometry": {
       "BoundingBox": {
@@ -5607,10 +5979,12 @@
           "Y": 0.8340895175933838
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.2635726928711
   },
   {
-    "Id": "f4f1b2e4-e4a9-4ab7-a28a-55ded44dc01a",
+    "Id": "597823e5-20bd-4aab-a50f-f1e6607d059b",
     "Text": "notamment en cas de défaut de paiement à son échéance exacte de toutes sommes",
     "Geometry": {
       "BoundingBox": {
@@ -5637,10 +6011,12 @@
           "Y": 0.8571762442588806
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.41365051269531
   },
   {
-    "Id": "0087ad42-b789-40b9-8d2f-8248ab5dc797",
+    "Id": "379c0580-c207-4f09-ad63-e9a960769e00",
     "Text": "dues tels le loyer et ses accessoires quelconques, et un mois après un simple",
     "Geometry": {
       "BoundingBox": {
@@ -5667,10 +6043,12 @@
           "Y": 0.8809990882873535
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.53004455566406
   },
   {
-    "Id": "bca95567-efea-47ed-9a30-ea121ff4b512",
+    "Id": "30235e29-2e37-40df-bae6-5dd781777940",
     "Text": "commandement de payer ou une sommation d'exécuter resté en tout ou en partie",
     "Geometry": {
       "BoundingBox": {
@@ -5697,10 +6075,12 @@
           "Y": 0.9029187560081482
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.19830322265625
   },
   {
-    "Id": "58852178-8259-4add-9795-872ab1995c65",
+    "Id": "ae02e090-a45e-4551-9195-2db71641d662",
     "Text": "sans effet pendant ce délai, et contenant déclaration par le BAILLEUR de son intention",
     "Geometry": {
       "BoundingBox": {
@@ -5727,10 +6107,12 @@
           "Y": 0.9261155724525452
         }
       ]
-    }
+    },
+    "Page": 7,
+    "Confidence": 99.56503295898438
   },
   {
-    "Id": "cf911416-b07b-429d-9904-773364b2b8b0",
+    "Id": "d5b35323-5eb3-423e-80ee-40b2fa75b80c",
     "Text": "d'user du bénéfice de la présente clause, le bail sera résilié de plein droit et sans",
     "Geometry": {
       "BoundingBox": {
@@ -5757,10 +6139,12 @@
           "Y": 0.08797696232795715
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.52729034423828
   },
   {
-    "Id": "567f257c-a762-4423-80ea-ad2ec8263712",
+    "Id": "65731989-1b65-4e32-b23e-39ce0ff823a6",
     "Text": "formalité, et ce nonobstant paiement ou exécution postérieure à l'expiration du délai",
     "Geometry": {
       "BoundingBox": {
@@ -5787,10 +6171,12 @@
           "Y": 0.11121778935194016
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 98.99817657470703
   },
   {
-    "Id": "fbeba8c7-90cc-4606-884d-03f421f2c31a",
+    "Id": "6c2e6fa1-d051-43d3-90c9-1bdfb7038129",
     "Text": "ci-dessus.",
     "Geometry": {
       "BoundingBox": {
@@ -5817,10 +6203,12 @@
           "Y": 0.13064482808113098
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.53543853759766
   },
   {
-    "Id": "366b3d92-a26a-408c-98af-bfb893b2e284",
+    "Id": "9261d061-7c79-4bda-ac28-b42a1c4dd2a2",
     "Text": "ARTICLE 8 : CIRCULATION DU CONTRAT",
     "Geometry": {
       "BoundingBox": {
@@ -5847,10 +6235,12 @@
           "Y": 0.19482383131980896
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 98.43710327148438
   },
   {
-    "Id": "c33dde38-a874-412c-9bbf-17ea7285a1ec",
+    "Id": "cf3fc169-9b77-48bd-975e-2f3abbc80113",
     "Text": "1°) Substitution de contractant entre vifs",
     "Geometry": {
       "BoundingBox": {
@@ -5877,10 +6267,12 @@
           "Y": 0.2415589839220047
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.3315200805664
   },
   {
-    "Id": "f45b05fe-9c9d-4260-b472-bd880849acbb",
+    "Id": "35c9076f-03f8-4e24-a7c2-8168ed66dbbd",
     "Text": "Le LOCATAIRE ne peut céder son droit au bail sans autorisation écrite du BAILLEUR",
     "Geometry": {
       "BoundingBox": {
@@ -5907,10 +6299,12 @@
           "Y": 0.2793973684310913
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.567138671875
   },
   {
-    "Id": "f9ce63db-d32e-484e-8cde-23d529f4dd4c",
+    "Id": "cee48a31-7dad-48eb-941c-32afc1f586ed",
     "Text": "sous peine de nullité de l'acte et résiliation immédiate de ce contrat avec paiement de",
     "Geometry": {
       "BoundingBox": {
@@ -5937,10 +6331,12 @@
           "Y": 0.30185142159461975
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.45879364013672
   },
   {
-    "Id": "2c35429c-e128-441c-8ace-29436d711204",
+    "Id": "bdd2ed8d-0c59-439d-9001-4e169f7f5fab",
     "Text": "dommages intérêts au BAILLEUR, sauf lorsque le cessionnaire est l'acquéreur du fonds",
     "Geometry": {
       "BoundingBox": {
@@ -5967,10 +6363,12 @@
           "Y": 0.32507890462875366
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.11116027832031
   },
   {
-    "Id": "ffcb69a2-aaa7-4e70-beff-7a5e877433e1",
+    "Id": "97d5da85-5d49-48a4-9589-a76e2ba75551",
     "Text": "de commerce.",
     "Geometry": {
       "BoundingBox": {
@@ -5997,10 +6395,12 @@
           "Y": 0.3443645238876343
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.7009506225586
   },
   {
-    "Id": "4a6a4d35-a764-4f91-b709-5f17af0e36f3",
+    "Id": "8e35ea4b-9a68-4efe-808f-f12f29d8a533",
     "Text": "Il devra signifier au BAILLEUR et à ses créanciers inscrits son intention de céder son",
     "Geometry": {
       "BoundingBox": {
@@ -6027,10 +6427,12 @@
           "Y": 0.38432180881500244
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.3369369506836
   },
   {
-    "Id": "6d3cd5bb-4371-4d34-b885-f849594afb2f",
+    "Id": "39baf56e-9cb9-46f4-9a7c-e345495f7c53",
     "Text": "bail.",
     "Geometry": {
       "BoundingBox": {
@@ -6057,10 +6459,12 @@
           "Y": 0.4052245020866394
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.951171875
   },
   {
-    "Id": "16ee24bf-a5b3-48e4-801a-456833539cc8",
+    "Id": "2a4a0d25-7c27-468e-a75c-2ab0a1f63008",
     "Text": "Cette notification précisera le prix proposé, les nom et adresse de l'acquéreur et les",
     "Geometry": {
       "BoundingBox": {
@@ -6087,10 +6491,12 @@
           "Y": 0.4443219304084778
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.2791976928711
   },
   {
-    "Id": "ebbb423d-9b36-4711-b51b-56f56a5b39f5",
+    "Id": "22bd5961-4242-49ec-b391-b3390f72d741",
     "Text": "lieux, jours et heures prévus pour la réalisation de cette cession.",
     "Geometry": {
       "BoundingBox": {
@@ -6117,10 +6523,12 @@
           "Y": 0.4675169885158539
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.59602355957031
   },
   {
-    "Id": "a3456751-1a6d-4600-a653-050b3cb934cf",
+    "Id": "af867aaf-8c22-408d-badf-39fdec27cb9e",
     "Text": "Une copie de l'acte de cession devra être remise au BAILLEUR.",
     "Geometry": {
       "BoundingBox": {
@@ -6147,10 +6555,12 @@
           "Y": 0.5037316083908081
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.64586639404297
   },
   {
-    "Id": "ece7c5e3-52e9-4c73-bc26-ea4beef20bff",
+    "Id": "4c8ba3d6-606e-42fc-bc3d-d6d1feb643e9",
     "Text": "Le LOCATAIRE ne pourra vendre à un tiers à un prix inférieur à celui notifié au",
     "Geometry": {
       "BoundingBox": {
@@ -6177,10 +6587,12 @@
           "Y": 0.5412943959236145
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.28092956542969
   },
   {
-    "Id": "9d59fbe7-9676-43fc-90fb-ff06f7c1e3d1",
+    "Id": "4009cced-91cb-4625-9e86-d7ad1f53f52b",
     "Text": "BAILLEUR.",
     "Geometry": {
       "BoundingBox": {
@@ -6207,10 +6619,12 @@
           "Y": 0.5615971088409424
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.80229949951172
   },
   {
-    "Id": "f08fe29f-f716-496c-9c6f-4197d7fae928",
+    "Id": "d8f84b26-ad44-40c7-9d13-b37299379a38",
     "Text": "Le LOCATAIRE-cédant devra rester garant solidaire du nouveau LOCATAIRE, pour tout",
     "Geometry": {
       "BoundingBox": {
@@ -6237,10 +6651,12 @@
           "Y": 0.6013367176055908
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.40313720703125
   },
   {
-    "Id": "a81743eb-dc59-4554-8908-6f55df0d3a2d",
+    "Id": "ed6f95d8-7295-45aa-967e-91812257719b",
     "Text": "ce qui concerne l'exécution des obligations nées de ce contrat.",
     "Geometry": {
       "BoundingBox": {
@@ -6267,10 +6683,12 @@
           "Y": 0.6240931749343872
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.07051086425781
   },
   {
-    "Id": "fc4d56e1-8e44-43b1-8ce8-0c72648ac4f3",
+    "Id": "3ab5b803-2acf-4db9-9062-613f4d45f25c",
     "Text": "Ces stipulations s'appliquent en cas d'apport en société.",
     "Geometry": {
       "BoundingBox": {
@@ -6297,10 +6715,12 @@
           "Y": 0.6608464121818542
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.30947875976562
   },
   {
-    "Id": "4c2def1b-2942-465e-a216-0e237ba41450",
+    "Id": "09f76168-56e2-45a1-aa4b-57edef0b1727",
     "Text": "2°) Sous-location location gérance",
     "Geometry": {
       "BoundingBox": {
@@ -6327,10 +6747,12 @@
           "Y": 0.6983186602592468
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 96.56000518798828
   },
   {
-    "Id": "b69b6bf7-2426-469c-8288-719f12a2685b",
+    "Id": "52c77cc7-d456-4751-b031-bb2adfb21e49",
     "Text": "Le LOCATAIRE ne pourra en aucun cas sans autorisation écrite du BAILLEUR, sous-",
     "Geometry": {
       "BoundingBox": {
@@ -6357,10 +6779,12 @@
           "Y": 0.7346234321594238
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.49534606933594
   },
   {
-    "Id": "49868075-3698-4467-8b0a-e654205c89a6",
+    "Id": "034eea8f-f6c8-47da-adb4-64d0c7ced06e",
     "Text": "louer les locaux objet du présent bail.",
     "Geometry": {
       "BoundingBox": {
@@ -6387,10 +6811,12 @@
           "Y": 0.7578262686729431
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.55638885498047
   },
   {
-    "Id": "5ad936b3-c5ed-4178-aaca-5a4511046b50",
+    "Id": "0d00aa89-b0a0-470f-8572-c1458a31fb63",
     "Text": "Le bailleur autorise le preneur à mettre son fonds de commerce en location-gérance à",
     "Geometry": {
       "BoundingBox": {
@@ -6417,10 +6843,12 @@
           "Y": 0.7952998876571655
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.2649154663086
   },
   {
-    "Id": "884173e7-d02f-4a92-8bfe-90317cb74152",
+    "Id": "8c34a4d9-3319-40d3-8738-5dfd43e069e1",
     "Text": "l'un de ses franchisés avec la possibilité pour le locataire-gérant de se domicilier dans",
     "Geometry": {
       "BoundingBox": {
@@ -6447,10 +6875,12 @@
           "Y": 0.8174616098403931
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.29500579833984
   },
   {
-    "Id": "c944a346-82a2-4927-8813-c10893dced8c",
+    "Id": "1c296b78-9382-4dbd-81cd-9d6fb11f086f",
     "Text": "les lieux loués pour l'exercice de son activité.",
     "Geometry": {
       "BoundingBox": {
@@ -6477,10 +6907,12 @@
           "Y": 0.8403587937355042
         }
       ]
-    }
+    },
+    "Page": 8,
+    "Confidence": 99.44993591308594
   },
   {
-    "Id": "214646c0-4e05-42ab-ac62-2b11bff7a304",
+    "Id": "83881e34-8b15-405e-8d21-ed8c31868511",
     "Text": "ARTICLE 9 : CONDITION PARTICULIERE",
     "Geometry": {
       "BoundingBox": {
@@ -6507,10 +6939,12 @@
           "Y": 0.09418325871229172
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 97.77474975585938
   },
   {
-    "Id": "7c91efa0-a660-4db5-8cdc-778c69d66cb5",
+    "Id": "da152469-2021-47f6-bc2b-fd5f7b729775",
     "Text": "Le LOCATAIRE s'engage à signer un contrat de sous-bail commercial avec le BAILLEUR,",
     "Geometry": {
       "BoundingBox": {
@@ -6537,10 +6971,12 @@
           "Y": 0.1414085477590561
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.47586059570312
   },
   {
-    "Id": "a9ee07dc-10fd-465e-9201-fd3df968f071",
+    "Id": "650d641a-e06c-4267-933d-df9d13f92fab",
     "Text": "au cas où ce dernier revendrait les locaux objet du présent bail commercial.",
     "Geometry": {
       "BoundingBox": {
@@ -6567,10 +7003,12 @@
           "Y": 0.16461151838302612
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.49987030029297
   },
   {
-    "Id": "40202bec-65b9-4bf3-86cd-2de0a5bc5db1",
+    "Id": "411c8f2b-201d-4f69-b2af-565266c48747",
     "Text": "Il est entendu que le contrat de sous-bail commercial serait conclu aux mêmes",
     "Geometry": {
       "BoundingBox": {
@@ -6597,10 +7035,12 @@
           "Y": 0.20100338757038116
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.43244171142578
   },
   {
-    "Id": "bab7f707-2eef-499d-858f-2d9c7b3cccae",
+    "Id": "409cf839-f86a-4471-b031-2ea3949a37a8",
     "Text": "conditions financières que le présent bail commercial.",
     "Geometry": {
       "BoundingBox": {
@@ -6627,10 +7067,12 @@
           "Y": 0.22403095662593842
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.30558776855469
   },
   {
-    "Id": "c25a5a4f-8f2d-4e1b-a397-11c12a87c5bf",
+    "Id": "79ec056b-cf94-40d1-a23f-73258b582d9c",
     "Text": "ARTICLE 10 : EXTINCTION DU CONTRAT",
     "Geometry": {
       "BoundingBox": {
@@ -6657,10 +7099,12 @@
           "Y": 0.28582778573036194
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 98.2383041381836
   },
   {
-    "Id": "3c68bc26-e85b-4cdc-803a-240372d31a07",
+    "Id": "b5759119-55ce-4aab-8df7-bd2b77e5351f",
     "Text": "1°) Causes",
     "Geometry": {
       "BoundingBox": {
@@ -6687,10 +7131,12 @@
           "Y": 0.3321605324745178
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 98.18408966064453
   },
   {
-    "Id": "f66abead-c84f-48cc-a32f-fd0b317ce8d2",
+    "Id": "509f5225-3ba2-4cc1-94d5-2c459452be5e",
     "Text": "Outre les hypothèses déjà considérées d'extinction du contrat, celui-ci pourra être",
     "Geometry": {
       "BoundingBox": {
@@ -6717,10 +7163,12 @@
           "Y": 0.36931321024894714
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.17147827148438
   },
   {
-    "Id": "5491fb85-92b1-41ec-b717-38c2293c2176",
+    "Id": "db7175b3-7c0a-4b63-8669-2cd057facae0",
     "Text": "résilié à l'initiative du LOCATAIRE qui fera valoir ses droits à la retraite et le notifiera par",
     "Geometry": {
       "BoundingBox": {
@@ -6747,10 +7195,12 @@
           "Y": 0.3927765488624573
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.42313385009766
   },
   {
-    "Id": "01259c40-4683-4460-90c1-e90f9eeef0b9",
+    "Id": "9b70631a-29cd-4c0e-9bc3-aaac54500c37",
     "Text": "acte extrajudiciaire, six mois avant son départ.",
     "Geometry": {
       "BoundingBox": {
@@ -6777,10 +7227,12 @@
           "Y": 0.4159802198410034
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.35344696044922
   },
   {
-    "Id": "f69f870e-a710-4713-9974-d920a7b720fc",
+    "Id": "aaafa8e8-2c67-49cc-8ba5-59413767fd96",
     "Text": "En fin de contrat ou en cas de rupture, quelle qu'en soit la cause, le LOCATAIRE devra",
     "Geometry": {
       "BoundingBox": {
@@ -6807,10 +7259,12 @@
           "Y": 0.45222991704940796
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.6125259399414
   },
   {
-    "Id": "0c25f056-7f65-48f1-8adf-a6000135507f",
+    "Id": "ed4ed4c4-c708-4cd0-bfa5-1d23c66885cf",
     "Text": "rendre les lieux loués en bon état de toutes réparations locatives ou régler au",
     "Geometry": {
       "BoundingBox": {
@@ -6837,10 +7291,12 @@
           "Y": 0.47528302669525146
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.44849395751953
   },
   {
-    "Id": "477beea1-9a2c-45bc-b066-60c2b266b503",
+    "Id": "c817cc65-d73e-4745-b630-1c6d4c07f611",
     "Text": "BAILLEUR le coût de la remise en état ; celle-ci devra être achevée au jour de la remise",
     "Geometry": {
       "BoundingBox": {
@@ -6867,10 +7323,12 @@
           "Y": 0.49762099981307983
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 98.96190643310547
   },
   {
-    "Id": "1dab44dd-1442-4757-a569-8aa9a5a1bb0e",
+    "Id": "bdac746e-0692-4c8f-bc90-4373f90a22dc",
     "Text": "des clefs. Si le LOCATAIRE refuse de quitter les locaux, il pourra y être contraint par",
     "Geometry": {
       "BoundingBox": {
@@ -6897,10 +7355,12 @@
           "Y": 0.5212119817733765
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 97.96798706054688
   },
   {
-    "Id": "aae39688-339a-432c-97a2-789bc1b05ed7",
+    "Id": "74ea00a2-9048-4e19-bfd9-61f867a9ba42",
     "Text": "ordonnance rendue par le Président du Tribunal de Grande Instance et il sera",
     "Geometry": {
       "BoundingBox": {
@@ -6927,10 +7387,12 @@
           "Y": 0.54413241147995
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.43124389648438
   },
   {
-    "Id": "3b40fe4d-1cf0-4617-8779-2a1774532a28",
+    "Id": "1d1773c1-9e0c-49db-8d58-77e652b4385c",
     "Text": "redevable au BAILLEUR d'une indemnité d'occupation.",
     "Geometry": {
       "BoundingBox": {
@@ -6957,10 +7419,12 @@
           "Y": 0.5663684606552124
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.16716003417969
   },
   {
-    "Id": "93fb5b4a-587c-497b-a8a9-404a0cb5d236",
+    "Id": "6cf60afc-7608-4d75-9c25-4272475209ed",
     "Text": "Le LOCATAIRE devra enlever le mobilier, mais après avoir justifié du paiement de",
     "Geometry": {
       "BoundingBox": {
@@ -6987,10 +7451,12 @@
           "Y": 0.6036454439163208
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.54947662353516
   },
   {
-    "Id": "fb8cdd5a-b3c8-4a02-9054-1638ae36c4c5",
+    "Id": "9a6f30d2-87b6-4159-8734-e531a823ce9d",
     "Text": "toutes les taxes à sa charge et de tous les termes de son loyer.",
     "Geometry": {
       "BoundingBox": {
@@ -7017,10 +7483,12 @@
           "Y": 0.6260064840316772
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.61249542236328
   },
   {
-    "Id": "092dfe78-3e51-4d34-9e03-51f3c2de9e94",
+    "Id": "9ce8bf6c-3efb-46ff-b56b-fdfa8314b499",
     "Text": "Un état des lieux contradictoire sera dressé lors de la remise des clefs.",
     "Geometry": {
       "BoundingBox": {
@@ -7047,10 +7515,12 @@
           "Y": 0.6611660718917847
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.64595794677734
   },
   {
-    "Id": "52f4f1c8-09c3-48ff-ba30-b03c6323124f",
+    "Id": "3e88e304-804e-4be0-902a-84a093e0b3be",
     "Text": "Le LOCATAIRE devra rendre les clefs des locaux au jour du déménagement. Leur",
     "Geometry": {
       "BoundingBox": {
@@ -7077,10 +7547,12 @@
           "Y": 0.7001557350158691
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.39509582519531
   },
   {
-    "Id": "53f5971f-3c3b-4bb0-8760-625e8fe1bf89",
+    "Id": "d3e50f5e-703b-44a7-8d2c-a53fe931745a",
     "Text": "acceptation par le BAILLEUR ne portera pas atteinte à son droit d'exiger du LOCATAIRE",
     "Geometry": {
       "BoundingBox": {
@@ -7107,10 +7579,12 @@
           "Y": 0.7231324315071106
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.47187042236328
   },
   {
-    "Id": "fa95685c-a0a4-4760-bb0b-4ba87a56a7e8",
+    "Id": "255098da-e9b9-4288-8ab9-5140c9d7566f",
     "Text": "le paiement des réparations dont celui-ci est normalement tenu.",
     "Geometry": {
       "BoundingBox": {
@@ -7137,10 +7611,12 @@
           "Y": 0.7462115287780762
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.43248748779297
   },
   {
-    "Id": "06f1dd99-63c5-44a4-a5fa-87b6b5f00525",
+    "Id": "5db15ed3-c87a-4e86-9f5f-a05801f8e12d",
     "Text": "Les travaux et embellissements effectués par le LOCATAIRE dans les locaux mis à sa",
     "Geometry": {
       "BoundingBox": {
@@ -7167,10 +7643,12 @@
           "Y": 0.7824506163597107
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.45124053955078
   },
   {
-    "Id": "868efc9f-a81d-4f6c-824d-230a1469bc3a",
+    "Id": "8f23c06d-fd23-4631-9e6f-1e56bd7e130b",
     "Text": "disposition restent la propriété du BAILLEUR sauf les équipements (tels que cloisons",
     "Geometry": {
       "BoundingBox": {
@@ -7197,10 +7675,12 @@
           "Y": 0.8062742352485657
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.3728256225586
   },
   {
-    "Id": "beced761-64d7-441c-85f1-cb6a7d89360b",
+    "Id": "9c20e7e0-bd58-4e0f-add6-4f1277fedab3",
     "Text": "mobiles, etc ...) et matériels qui ne peuvent être considérés comme immeubles par",
     "Geometry": {
       "BoundingBox": {
@@ -7227,10 +7707,12 @@
           "Y": 0.8283693194389343
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.08854675292969
   },
   {
-    "Id": "6bd62adb-9049-4f2d-bddd-da335e420ea6",
+    "Id": "61c57562-857c-4631-a637-1f0ce6edd054",
     "Text": "destination.",
     "Geometry": {
       "BoundingBox": {
@@ -7257,10 +7739,12 @@
           "Y": 0.8484293818473816
         }
       ]
-    }
+    },
+    "Page": 9,
+    "Confidence": 99.6924819946289
   },
   {
-    "Id": "13b06a5e-84ac-4721-ac96-085e5aa77190",
+    "Id": "855b7f44-c16f-40c1-9a3f-83a62caaf5b9",
     "Text": "ARTICLE 11 : FRAIS - ENREGISTREMENT",
     "Geometry": {
       "BoundingBox": {
@@ -7287,10 +7771,12 @@
           "Y": 0.09417092055082321
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 91.81277465820312
   },
   {
-    "Id": "8875f6e6-5a82-4c1e-820e-db0fbb3c2ee9",
+    "Id": "5c1d5421-aa2d-4c55-ab87-91eda5e0ab90",
     "Text": "Le LOCATAIRE paiera tous les frais des présentes (droits de timbre, honoraires, frais",
     "Geometry": {
       "BoundingBox": {
@@ -7317,10 +7803,12 @@
           "Y": 0.14144539833068848
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.72771453857422
   },
   {
-    "Id": "6592de22-41da-40a1-9cd7-ded2c10c42a5",
+    "Id": "27caf119-790f-41f0-8378-eb8f0a9e9a29",
     "Text": "d'enregistrement) ainsi que ceux qui en seraient la suite ou la conséquence.",
     "Geometry": {
       "BoundingBox": {
@@ -7347,10 +7835,12 @@
           "Y": 0.16475515067577362
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.20833587646484
   },
   {
-    "Id": "23bfed83-4904-45a3-8102-a548db074728",
+    "Id": "aa46ab4f-33f8-49b3-bf10-d195fe790213",
     "Text": "ARTICLE 12 : ELECTION DE DOMICILE",
     "Geometry": {
       "BoundingBox": {
@@ -7377,10 +7867,12 @@
           "Y": 0.22527508437633514
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 98.87532806396484
   },
   {
-    "Id": "ab67614a-aaf6-4863-9429-f9523e70a7cf",
+    "Id": "682113ac-3e70-44cc-9e86-a4091d768783",
     "Text": "Pour l'exécution de ce contrat, le BAILLEUR élit domicile en son siège social et le",
     "Geometry": {
       "BoundingBox": {
@@ -7407,10 +7899,12 @@
           "Y": 0.27358028292655945
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.29728698730469
   },
   {
-    "Id": "b80007ac-4e60-4fa6-b6e7-a3da813a013e",
+    "Id": "e6a20eab-f3d5-426a-a43d-15e92df00ded",
     "Text": "LOCATAIRE dans les lieux loués.",
     "Geometry": {
       "BoundingBox": {
@@ -7437,10 +7931,12 @@
           "Y": 0.29292985796928406
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.7547836303711
   },
   {
-    "Id": "87159c33-9890-44de-8268-4acc4b00af6f",
+    "Id": "ab29c461-7213-4f64-90ba-eac616e75cde",
     "Text": "ARTICLE 13 : COMPETENCE",
     "Geometry": {
       "BoundingBox": {
@@ -7467,10 +7963,12 @@
           "Y": 0.35715630650520325
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 98.29345703125
   },
   {
-    "Id": "2e249246-42de-4dbc-83c3-e219fc738e84",
+    "Id": "69c4ed39-5c63-49eb-86a8-0c026ac7b7ce",
     "Text": "En cas de difficultés survenant pour l'interprétation et l'exécution du présent contrat,",
     "Geometry": {
       "BoundingBox": {
@@ -7497,10 +7995,12 @@
           "Y": 0.4042467176914215
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 98.67610931396484
   },
   {
-    "Id": "f29f5562-56e6-4502-9367-b5aa8bec8fbd",
+    "Id": "24731c43-b727-4f7a-8aa1-0570b4d5c6a6",
     "Text": "ou par suite de sa résiliation pour quelque cause que ce soit, même en cas de",
     "Geometry": {
       "BoundingBox": {
@@ -7527,10 +8027,12 @@
           "Y": 0.4274374544620514
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.38912200927734
   },
   {
-    "Id": "c5c75dac-1e2f-4895-af9d-ddb7749b1af6",
+    "Id": "d81155be-06cf-4607-8c98-81585bd2fa6b",
     "Text": "demande incidente ou en garantie, ou de pluralité de défendeurs, les Tribunaux de",
     "Geometry": {
       "BoundingBox": {
@@ -7557,10 +8059,12 @@
           "Y": 0.4499399662017822
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.48331451416016
   },
   {
-    "Id": "96c7f573-e36a-4dae-a6aa-a6361010b942",
+    "Id": "3fff79f8-e366-46ee-b140-e9b254a8d669",
     "Text": "PARIS seront seuls compétents.",
     "Geometry": {
       "BoundingBox": {
@@ -7587,10 +8091,12 @@
           "Y": 0.4730103015899658
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.53528594970703
   },
   {
-    "Id": "d8353f56-35f1-4ea3-aee3-1a6771075cc9",
+    "Id": "7e54ec43-bfc2-4f10-9192-1f38c73ca25f",
     "Text": "Fait à Paris le 16 septembre 2025",
     "Geometry": {
       "BoundingBox": {
@@ -7617,10 +8123,12 @@
           "Y": 0.5089054107666016
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.63058471679688
   },
   {
-    "Id": "c6299819-43cb-4d37-badc-4f1103c48bc6",
+    "Id": "b6e94ebf-4723-4c18-91be-4eebcd23fbcf",
     "Text": "Pour le BAILLEUR,",
     "Geometry": {
       "BoundingBox": {
@@ -7647,10 +8155,12 @@
           "Y": 0.5460848212242126
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.64093017578125
   },
   {
-    "Id": "68969f60-8389-4ab1-b3de-130ff26856a2",
+    "Id": "37c69610-0d15-49ce-af31-fdf80472c351",
     "Text": "AEW Europe",
     "Geometry": {
       "BoundingBox": {
@@ -7677,10 +8187,12 @@
           "Y": 0.5838579535484314
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.85800170898438
   },
   {
-    "Id": "64bca988-b2ba-466d-b90d-2fccf30c0b80",
+    "Id": "92bb6ec6-3865-4f2d-8640-3d87ee1c8542",
     "Text": "Monsieur Jean Dupont Directeur Général",
     "Geometry": {
       "BoundingBox": {
@@ -7707,10 +8219,12 @@
           "Y": 0.6207172274589539
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.60462951660156
   },
   {
-    "Id": "b04b78e2-b2d7-4b29-88c4-ba5696945b0f",
+    "Id": "8082e618-554e-4afa-a663-21962ec78112",
     "Text": "Pour le LOCATAIRE,",
     "Geometry": {
       "BoundingBox": {
@@ -7737,10 +8251,12 @@
           "Y": 0.6572310924530029
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.34862518310547
   },
   {
-    "Id": "99d8933e-2c82-47fa-866b-5b98f972e96e",
+    "Id": "7b1f19f2-04c5-491e-a6fb-c40138b89d15",
     "Text": "Fayet",
     "Geometry": {
       "BoundingBox": {
@@ -7767,10 +8283,12 @@
           "Y": 0.6945820450782776
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.970703125
   },
   {
-    "Id": "24222f5d-6fe7-4e20-95c2-d224ad5ff433",
+    "Id": "04919933-ea98-463c-83ef-7731099d8423",
     "Text": "Madame Sophie Dubois Présidente Directrice Générale",
     "Geometry": {
       "BoundingBox": {
@@ -7797,6 +8315,8 @@
           "Y": 0.7318360805511475
         }
       ]
-    }
+    },
+    "Page": 10,
+    "Confidence": 99.51610565185547
   }
 ]
