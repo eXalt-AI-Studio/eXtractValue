@@ -9,6 +9,21 @@ import plotly.graph_objects as go
 from PIL import Image, ImageDraw
 import ast
 
+columns = ["Bailleur",
+           "Locataire",
+           "Loyer annuel (euros)",
+           "Durée (années)",
+           "Date de début",
+           "Adresse location",
+           "Charges (euros)",
+           "Code Postal location",
+           "Date d'expiration",
+           "Date de signature du bail",
+           "Indice de référence pour l'indexation du loyer",
+           "Résumé",
+           "Ville location"
+           ]
+
 load_dotenv()
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
@@ -72,12 +87,10 @@ with tab1:
     with col1:
         st.subheader("Données Clées Extraites:")
         if not filtered_df.empty:
-            record = filtered_df.iloc[0].to_dict()
-            for key, value in record.items():
+            for key in columns:
                 if key == 'filename':
                     continue
-                st.text_input(label=key, value=str(value), key=f"{selected_file}_{key}")
-                show_bbox = st.checkbox("Show bounding box", value=False, key=f"{selected_file}_{key}_bbox")
+                st.text_input(label=key, value=str(filtered_df[key].iloc[0]), key=f"{selected_file}_{key}")
             csv = filtered_df.to_csv(index=False).encode('utf-8')
             st.download_button(
                 label="Télécharger les données extraites en CSV",
@@ -93,10 +106,12 @@ with tab1:
             try:
                 doc = fitz.open(f"data/{selected_file}")
                 num_pages = doc.page_count
-                page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1)
-                if st.session_state["fayet_bail_commercial.pdf_Loyer annuel (euros)_bbox"]:
-                    page_number = int(filtered_df["Loyer annuel (euros) Page"].iloc[0])
-                    bbox = ast.literal_eval(filtered_df["Loyer annuel (euros) Geometry"].iloc[0])
+                page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1) 
+                show_bbox = st.checkbox("Show bounding box", value=False, key=f"{selected_file}_{key}_bbox")
+                selected_col = st.selectbox("Sélectionner la donnée à rechercher:", columns)
+                if show_bbox:
+                    page_number = int(filtered_df[f"{selected_col} Page"].iloc[0])
+                    bbox = ast.literal_eval(filtered_df[f"{selected_col} Geometry"].iloc[0])
                     page = doc.load_page(page_number - 1)
                     pix = page.get_pixmap()
                     img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
