@@ -7,6 +7,7 @@ from llm_chat import call_llm_chat
 from dotenv import load_dotenv
 import plotly.graph_objects as go
 from PIL import Image, ImageDraw
+import ast
 
 load_dotenv()
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -14,7 +15,7 @@ if not OPENROUTER_API_KEY:
     raise ValueError("Missing OPENROUTER_API_KEY")
 
 # Load data from CSV
-df = pd.read_csv('output/output_text.csv')
+df = pd.read_csv('output/block-output_text.csv')
 
 list_files = ["fayet_bail_commercial.pdf",
             "Q448 ANTIBES - 0707 Bail_biff.pdf",
@@ -69,19 +70,6 @@ tab1, tab2, tab3, tab4 = st.tabs(tab_names)
 with tab1:
     col1, col2 = st.columns(2)
     with col1:
-        st.subheader("Contenu du PDF:")
-        if os.path.exists(f"data/{selected_file}"):   
-            try:
-                doc = fitz.open(f"data/{selected_file}")
-                num_pages = doc.page_count
-                page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1) - 1
-                page = doc.load_page(page_number)
-                pix = page.get_pixmap()
-                img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                st.image(img, caption=f"Page {page_number+1}", width='stretch')
-            except Exception as e:
-                st.error(f"Error displaying PDF: {e}")
-    with col2:
         st.subheader("Données Clées Extraites:")
         if not filtered_df.empty:
             record = filtered_df.iloc[0].to_dict()
@@ -89,6 +77,7 @@ with tab1:
                 if key == 'filename':
                     continue
                 st.text_input(label=key, value=str(value), key=f"{selected_file}_{key}")
+                show_bbox = st.checkbox("Show bounding box", value=False, key=f"{selected_file}_{key}_bbox")
             csv = filtered_df.to_csv(index=False).encode('utf-8')
             st.download_button(
                 label="Télécharger les données extraites en CSV",
@@ -98,6 +87,34 @@ with tab1:
             )
         else:
             st.info("Aucune donnée extraite pour ce fichier.")
+    with col2:
+        st.subheader("Contenu du PDF:")
+        if os.path.exists(f"data/{selected_file}"):   
+            try:
+                doc = fitz.open(f"data/{selected_file}")
+                num_pages = doc.page_count
+                page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1)
+                if st.session_state["fayet_bail_commercial.pdf_Loyer annuel (euros)_bbox"]:
+                    page_number = int(filtered_df["Loyer annuel (euros) Page"].iloc[0])
+                    bbox = ast.literal_eval(filtered_df["Loyer annuel (euros) Geometry"].iloc[0])
+                    page = doc.load_page(page_number - 1)
+                    pix = page.get_pixmap()
+                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    x0 = int(bbox['Left'] * pix.width)
+                    y0 = int(bbox['Top'] * pix.height)
+                    y0 = int(bbox['Top'] * pix.height)
+                    x1 = int((bbox['Left'] + bbox['Width']) * pix.width)
+                    y1 = int((bbox['Top'] + bbox['Height']) * pix.height)
+                    draw = ImageDraw.Draw(img)
+                    draw.rectangle([x0, y0, x1, y1], outline="red", width=3)
+                    st.image(img, caption=f"PDF page {page_number} with bounding box")
+                else:
+                    page = doc.load_page(page_number - 1)
+                    pix = page.get_pixmap()
+                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    st.image(img, caption=f"PDF Page {page_number}", width='stretch')
+            except Exception as e:
+                st.error(f"Error displaying PDF: {e}")
 
 with tab2:
     col1, col2 = st.columns(2)
