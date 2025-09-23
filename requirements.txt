@@ -4,3 +4,4 @@ dotenv
 boto3
 pymupdf
 plotly
+pillow
