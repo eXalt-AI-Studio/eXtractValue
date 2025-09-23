@@ -24,6 +24,21 @@ columns = ["Bailleur",
            "Ville location"
            ]
 
+
+columns_origin = ["Bailleur",
+           "Locataire",
+           "Loyer annuel (euros)",
+           "Durée (années)",
+           "Date de début",
+           "Adresse location",
+           "Charges (euros)",
+           "Code Postal location",
+           "Date d'expiration",
+           "Date de signature du bail",
+           "Indice de référence pour l'indexation du loyer",
+           "Ville location"
+           ]
+
 load_dotenv()
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
 if not OPENROUTER_API_KEY:
@@ -108,7 +123,7 @@ with tab1:
                 num_pages = doc.page_count
                 page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1) 
                 show_bbox = st.checkbox("Show bounding box", value=False, key=f"{selected_file}_{key}_bbox")
-                selected_col = st.selectbox("Sélectionner la donnée à rechercher:", columns)
+                selected_col = st.selectbox("Sélectionner la donnée à rechercher:", columns_origin)
                 if show_bbox:
                     page_number = int(filtered_df[f"{selected_col} Page"].iloc[0])
                     bbox = ast.literal_eval(filtered_df[f"{selected_col} Geometry"].iloc[0])

@@ -41,7 +41,7 @@ def extract_key_data_with_text(file, text):
 	df = pd.DataFrame([response])
 	for col in df.columns:
 		if col != 'filename' and col != 'Résumé':
-			line = df.iloc[0][col]['line_id']
+			line = df.iloc[0][col]['line_id'] - 1
 			if line < len(text):
 				col_name = f"{col} Geometry"
 				df[col_name] = [text[line]['Geometry']['BoundingBox']] * len(df)
