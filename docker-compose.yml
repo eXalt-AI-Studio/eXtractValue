@@ -1,0 +1,19 @@
+services:
+  doc:
+    image: barlords/extract-value:latest
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    environment:
+      STREAMLIT_SERVER_HEADLESS: "true"
+      STREAMLIT_SERVER_ENABLECORS: "false"
+    networks:
+      - traefik_proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.doc.rule=Host(`doc.exalt.studio`)"
+      - "traefik.http.routers.doc.entrypoints=websecure"
+      - "traefik.http.routers.doc.tls.certresolver=lehttp"
+networks:
+  traefik_proxy:
+    external: true
