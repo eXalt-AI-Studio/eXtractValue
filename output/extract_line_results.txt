@@ -1,0 +1,260 @@
+{'line_id': 1, 'Text': 'CONTRAT DE BAIL COMMERCIAL'}
+{'line_id': 2, 'Text': 'ENTRE'}
+{'line_id': 3, 'Text': 'La Société AEW Europe,'}
+{'line_id': 4, 'Text': '20, rue de la Paix, 75002 Paris,'}
+{'line_id': 5, 'Text': 'représentée par Monsieur Jean Dupont, en sa qualité de Directeur Général, dûment'}
+{'line_id': 6, 'Text': 'habilité'}
+{'line_id': 7, 'Text': 'ci-après dénommée "LE BAILLEUR"'}
+{'line_id': 8, 'Text': "D'UNE PART"}
+{'line_id': 9, 'Text': 'ET'}
+{'line_id': 10, 'Text': 'La Société Fayet,'}
+{'line_id': 11, 'Text': '12, Avenue des Champs-Élysées, 75008 Paris,'}
+{'line_id': 12, 'Text': 'Représentée par Madame Sophie Dubois, en sa qualité de Présidente Directrice'}
+{'line_id': 13, 'Text': 'Générale'}
+{'line_id': 14, 'Text': 'ci-après dénommée "LE LOCATAIRE"'}
+{'line_id': 15, 'Text': "D'AUTRE PART"}
+{'line_id': 16, 'Text': 'EXPOSE'}
+{'line_id': 17, 'Text': 'Les parties entendent régler par la présente convention les modalités relatives à la'}
+{'line_id': 18, 'Text': 'location faite par le BAILLEUR à la LOCATAIRE des lieux dans lesquels cette dernière'}
+{'line_id': 19, 'Text': 'souhaite exploiter le restaurant ci-dessous mentionné.'}
+{'line_id': 20, 'Text': 'CECI ETANT EXPOSE, IL A ETE CONVENU CE QUI SUIT:'}
+{'line_id': 21, 'Text': 'ARTICLE 1 : OBJET DU CONTRAT'}
+{'line_id': 22, 'Text': "Le BAILLEUR met à la disposition du LOCATAIRE, moyennant le versement d'un loyer,"}
+{'line_id': 23, 'Text': "les locaux ci-dessous désignés, dépendant d'un immeuble sis à 15, Rue de la Banque,"}
+{'line_id': 24, 'Text': '75002 Paris.'}
+{'line_id': 25, 'Text': "Les biens loués se composent d'une salle de restaurant, d'une cuisine professionnelle,"}
+{'line_id': 26, 'Text': "d'un bureau, d'un espace de stockage et de divers locaux techniques ; le LOCATAIRE"}
+{'line_id': 27, 'Text': 'dispense le BAILLEUR de les décrire plus amplement.'}
+{'line_id': 28, 'Text': "Sans qu'il en soit fait plus ample désignation, le LOCATAIRE déclare les connaître et les"}
+{'line_id': 29, 'Text': 'accepter.'}
+{'line_id': 30, 'Text': 'ARTICLE 2 : DESTINATION'}
+{'line_id': 31, 'Text': "Les lieux sont loués à usage exclusif d'un restaurant de type cuisine gastronomique"}
+{'line_id': 32, 'Text': 'française et exploité dans le cadre de l\'enseigne "Le Gourmet Parisien".'}
+{'line_id': 33, 'Text': 'Cette destination précise est considérée par chacune des parties comme déterminante'}
+{'line_id': 34, 'Text': 'pour la conclusion de la présente convention, en ce sens que, sans elle, les parties'}
+{'line_id': 35, 'Text': "n'auraient pas conclu le présent bail."}
+{'line_id': 36, 'Text': 'Le LOCATAIRE ne pourra donc changer cette destination, et en conséquence, les'}
+{'line_id': 37, 'Text': 'parties reconnaissent expressément que la cessation par le LOCATAIRE de'}
+{'line_id': 38, 'Text': "l'exploitation de ce restaurant pour quelque cause que ce soit, notamment et à titre"}
+{'line_id': 39, 'Text': 'non limitatif en raison de la perte par le LOCATAIRE de sa qualité de franchisé, sera'}
+{'line_id': 40, 'Text': 'considérée comme un changement de destination devant entraîner par voie de'}
+{'line_id': 41, 'Text': 'conséquence la résolution de la présente convention.'}
+{'line_id': 42, 'Text': 'Par ailleurs, le LOCATAIRE veillera à se conformer dans le cadre de cette exploitation'}
+{'line_id': 43, 'Text': 'aux diverses réglementations en vigueur et à obtenir toutes autorisations nécessaires'}
+{'line_id': 44, 'Text': 'à une telle exploitation.'}
+{'line_id': 45, 'Text': 'ARTICLE 3 : LOYER ET CHARGES'}
+{'line_id': 46, 'Text': 'Le loyer annuel hors taxes et hors charges est fixé à 85 000 Euros (quatre-vingt-cinq'}
+{'line_id': 47, 'Text': 'mille Euros)'}
+{'line_id': 48, 'Text': "Ce loyer sera payable par trimestre et d'avance, le premier jour de chaque trimestre"}
+{'line_id': 49, 'Text': 'civil, par prélèvement automatique.'}
+{'line_id': 50, 'Text': 'Les charges locatives, incluant notamment les taxes foncières, les charges de'}
+{'line_id': 51, 'Text': "copropriété et les consommations d'eau et d'électricité, seront refacturées au"}
+{'line_id': 52, 'Text': 'LOCATAIRE sur justificatifs.'}
+{'line_id': 53, 'Text': 'ARTICLE 4 : DUREE'}
+{'line_id': 54, 'Text': 'Ce bail est consenti et accepté pour une durée de 9 années entières et consécutives'}
+{'line_id': 55, 'Text': 'commençant à courir le 1er février 2025 et venant à expiration le 31 janvier 2034.'}
+{'line_id': 56, 'Text': "Mais le LOCATAIRE aura la faculté de le faire cesser à l'expiration de chaque période"}
+{'line_id': 57, 'Text': "triennale en prévenant le BAILLEUR six mois au moins à l'avance, par acte"}
+{'line_id': 58, 'Text': 'extrajudiciaire.'}
+{'line_id': 59, 'Text': 'ARTICLE 5 : OBLIGATIONS DU BAILLEUR'}
+{'line_id': 60, 'Text': '1°) Mise à disposition'}
+{'line_id': 61, 'Text': 'Le BAILLEUR devra mettre les locaux loués à la disposition du LOCATAIRE en les tenant'}
+{'line_id': 62, 'Text': 'clos et couverts sans déroger aux obligations du LOCATAIRE concernant les travaux qui'}
+{'line_id': 63, 'Text': 'seraient nécessaires à la devanture.'}
+{'line_id': 64, 'Text': '2°) Assurances'}
+{'line_id': 65, 'Text': "Le BAILLEUR devra assurer l'immeuble contre l'incendie et être couvert par une"}
+{'line_id': 66, 'Text': 'assurance "responsabilité civile".'}
+{'line_id': 67, 'Text': '3°) Non concurrence'}
+{'line_id': 68, 'Text': 'Le BAILLEUR ne devra pas :'}
+{'line_id': 69, 'Text': 'exercer directement ou indirectement un commerce de restauration rapide ou'}
+{'line_id': 70, 'Text': 'traiteur concurrent de celui du LOCATAIRE dans le même immeuble,'}
+{'line_id': 71, 'Text': "louer une autre partie de l'immeuble pour l'exercice d'un commerce similaire ou"}
+{'line_id': 72, 'Text': "permettant l'exercice d'un commerce similaire."}
+{'line_id': 73, 'Text': 'ARTICLE 6 : OBLIGATIONS DU LOCATAIRE'}
+{'line_id': 74, 'Text': '1°) Exploitation et garnissement des locaux'}
+{'line_id': 75, 'Text': "Le LOCATAIRE prendra les lieux loués dans l'état où ils se trouveront au moment de"}
+{'line_id': 76, 'Text': "l'entrée en jouissance, un état des lieux dressé contradictoirement étant joint en"}
+{'line_id': 77, 'Text': 'annexe du présent contrat, et devra y exploiter un commerce de restaurant'}
+{'line_id': 78, 'Text': 'gastronomique, sans pouvoir y exercer aucune autre activité.'}
+{'line_id': 79, 'Text': 'Il devra tenir les locaux loués garnis de meubles, matériels et marchandises en'}
+{'line_id': 80, 'Text': "quantité et valeur suffisantes pour répondre du paiement des loyers et de l'exécution"}
+{'line_id': 81, 'Text': 'des charges et des conditions du contrat.'}
+{'line_id': 82, 'Text': '2°) Jouissance'}
+{'line_id': 83, 'Text': 'Le LOCATAIRE devra obtenir toutes les autorisations administratives nécessaires pour'}
+{'line_id': 84, 'Text': "l'exercice de son activité et se conformer aux lois et règlements en vigueur concernant"}
+{'line_id': 85, 'Text': "la voirie, la salubrité, la police, la sécurité, l'hygiène et le travail."}
+{'line_id': 86, 'Text': 'Le LOCATAIRE devra occuper les locaux en bon père de famille et ne rien faire qui'}
+{'line_id': 87, 'Text': 'puisse troubler la tranquillité ou causer un quelconque trouble de jouissance par son'}
+{'line_id': 88, 'Text': "fait ou celui des gens qu'il emploiera à son service."}
+{'line_id': 89, 'Text': 'En cas de contestation concernant son activité, il devra en faire son affaire personnelle'}
+{'line_id': 90, 'Text': "; il en ira de même face aux troubles que les autres occupants de l'immeuble ou les"}
+{'line_id': 91, 'Text': 'voisins pourraient lui occasionner.'}
+{'line_id': 92, 'Text': '3°) Enseigne et inscriptions diverses'}
+{'line_id': 93, 'Text': "Le LOCATAIRE ne peut placer d'inscriptions, de plaques, d'enseignes ou d'autres"}
+{'line_id': 94, 'Text': 'dispositifs du même genre, sous réserve de celles expressément autorisées dans le'}
+{'line_id': 95, 'Text': 'contrat de franchise, que moyennant approbation écrite et préalable du BAILLEUR.'}
+{'line_id': 96, 'Text': '4°) Entretien et réparations'}
+{'line_id': 97, 'Text': 'Le LOCATAIRE devra entretenir les biens loués en bon état. A cette fin, il effectuera, à'}
+{'line_id': 98, 'Text': "ses frais, pendant toute la durée du bail, les réparations, les travaux d'entretien et le"}
+{'line_id': 99, 'Text': "nettoyage qui s'avèreraient nécessaires. Il pourvoira dans tous les cas, au"}
+{'line_id': 100, 'Text': 'remplacement des agencements suivants : carrelage, climatisation, enseignes.'}
+{'line_id': 101, 'Text': "Il répondra de toutes les détériorations survenant par suite d'abus de jouissance soit"}
+{'line_id': 102, 'Text': "de son fait, soit du fait d'un tiers même si les réparations sont normalement à la"}
+{'line_id': 103, 'Text': 'charge du BAILLEUR.'}
+{'line_id': 104, 'Text': "Le LOCATAIRE s'engage à occuper les lieux en bon père de famille et à les maintenir en"}
+{'line_id': 105, 'Text': "parfait état d'entretien pendant toute la durée du bail."}
+{'line_id': 106, 'Text': "Sans préjudice de ce qui est dit à l'article ci-après, le LOCATAIRE aura à cet égard la"}
+{'line_id': 107, 'Text': "charge de toutes les réparations réputées locatives par la loi, outre l'entretien des"}
+{'line_id': 108, 'Text': 'peintures extérieures.'}
+{'line_id': 109, 'Text': 'Il entretiendra les volets et autres fermetures, les toitures vitrées, et les fera réparer au'}
+{'line_id': 110, 'Text': 'besoin.'}
+{'line_id': 111, 'Text': "Il préservera les pompes, robinets, tuyaux d'eau et de décharge contre les effets et les"}
+{'line_id': 112, 'Text': 'dégâts du gel et devra veiller, sous sa responsabilité, à ce que les toilettes, égouts et'}
+{'line_id': 113, 'Text': 'tuyaux ne soient jamais obstrués par suite de son fait ou de celui de ceux dont il'}
+{'line_id': 114, 'Text': 'répond y compris sa clientèle.'}
+{'line_id': 115, 'Text': 'En outre, le LOCATAIRE devra signaler immédiatement au BAILLEUR tout dommage ou'}
+{'line_id': 116, 'Text': "dégât important dont serait affecté l'immeuble."}
+{'line_id': 117, 'Text': '5°) Travaux'}
+{'line_id': 118, 'Text': 'Le LOCATAIRE devra souffrir tous travaux que le BAILLEUR jugerait nécessaires en'}
+{'line_id': 119, 'Text': "cours de bail sur l'immeuble ou dans les locaux loués, sans pouvoir prétendre à"}
+{'line_id': 120, 'Text': 'aucune indemnité ; cependant, si les travaux durent plus de 40 jours, il pourra'}
+{'line_id': 121, 'Text': 'prétendre à une diminution de loyer. Cette diminution sera déterminée en fonction de'}
+{'line_id': 122, 'Text': "la durée des travaux et de l'importance de la privation de jouissance."}
+{'line_id': 123, 'Text': 'Le LOCATAIRE supportera sans indemnité de la part du BAILLEUR tous travaux qui'}
+{'line_id': 124, 'Text': "seraient exécutés sur la voie publique ou par des voisins, alors même qu'il en"}
+{'line_id': 125, 'Text': 'résulterait une gêne pour son exploitation.'}
+{'line_id': 126, 'Text': 'Le LOCATAIRE devra aviser immédiatement le BAILLEUR de toute détérioration ou'}
+{'line_id': 127, 'Text': 'dégradation des lieux loués pouvant donner lieu à des réparations à sa charge.'}
+{'line_id': 128, 'Text': "Le LOCATAIRE devra obtenir l'autorisation préalable du BAILLEUR pour réaliser des"}
+{'line_id': 129, 'Text': "travaux ou des transformations quels qu'ils soient."}
+{'line_id': 130, 'Text': "En cas de travaux ou simplement afin de constater l'état des locaux loués, le"}
+{'line_id': 131, 'Text': 'LOCATAIRE devra laisser le BAILLEUR, son représentant ou son architecte, pénétrer'}
+{'line_id': 132, 'Text': 'dans ces lieux, durant les heures ouvrables.'}
+{'line_id': 133, 'Text': '6°) Changements embellissements'}
+{'line_id': 134, 'Text': 'Le LOCATAIRE pourra aménager la disposition des locaux à ses frais exclusifs.'}
+{'line_id': 135, 'Text': '7°) Visite des locaux'}
+{'line_id': 136, 'Text': 'Le LOCATAIRE devra laisser visiter les locaux loués, par le BAILLEUR ou son'}
+{'line_id': 137, 'Text': "représentant, au moins une fois par an et au cours des six mois avant l'expiration du"}
+{'line_id': 138, 'Text': 'bail pendant les jours et les heures ouvrables et en laissant, si besoin est, apposer un'}
+{'line_id': 139, 'Text': 'écriteau pour indiquer que les locaux sont à vendre ou à louer.'}
+{'line_id': 140, 'Text': '8°) Copropriété'}
+{'line_id': 141, 'Text': 'Le LOCATAIRE devra respecter toutes les obligations et toutes les règles de sécurité'}
+{'line_id': 142, 'Text': 'pouvant résulter du Règlement de Copropriété et toute instruction du syndic de'}
+{'line_id': 143, 'Text': "l'immeuble."}
+{'line_id': 144, 'Text': '9°) Paiement'}
+{'line_id': 145, 'Text': 'De convention expresse entre les parties, il est convenu que le LOCATAIRE confère'}
+{'line_id': 146, 'Text': "d'ores et déjà au BAILLEUR l'autorisation de prélever automatiquement sur le compte"}
+{'line_id': 147, 'Text': "FR76 3456 7890 18500 que le LOCATAIRE s'engage"}
+{'line_id': 148, 'Text': "à ouvrir auprès d'un organisme financier, le 5 de chaque mois civil le montant du loyer"}
+{'line_id': 149, 'Text': 'concernant le mois précédent.'}
+{'line_id': 150, 'Text': "Pour l'exécution de la présente clause, le LOCATAIRE s'engage à remettre dès que le"}
+{'line_id': 151, 'Text': 'BAILLEUR lui en fera la demande écrite toutes les autorisations et documents'}
+{'line_id': 152, 'Text': 'nécessaires et notamment les formulaires de demande de prélèvement, autorisations'}
+{'line_id': 153, 'Text': "de prélèvement, relevé d'identité bancaire (RIB), postal (RIP), caisse d'épargne (RICE)"}
+{'line_id': 154, 'Text': "En cas de changement d'organisme financier ou de compte, le LOCATAIRE"}
+{'line_id': 155, 'Text': "communiquera immédiatement toute modification qui pourrait intervenir et s'oblige à"}
+{'line_id': 156, 'Text': 'fournir dans les huit jours qui suivront ces modifications tous les nouveaux documents'}
+{'line_id': 157, 'Text': "et autorisations nécessaires à l'accomplissement de la présente clause."}
+{'line_id': 158, 'Text': "Les parties conviennent qu'en ce qui concerne les montants dus au titre des loyers, le"}
+{'line_id': 159, 'Text': 'LOCATAIRE devra approvisionner son compte en vue des prélèvements en fonction du'}
+{'line_id': 160, 'Text': "chiffre d'affaires HT concerné et des taux fixés dans le contrat même si les factures ne"}
+{'line_id': 161, 'Text': 'lui étaient pas parvenues.'}
+{'line_id': 162, 'Text': 'En ce qui concerne les autres règlements et pour permettre au LOCATAIRE'}
+{'line_id': 163, 'Text': "d'approvisionner son compte en temps voulu, le BAILLEUR adressera quinze jours"}
+{'line_id': 164, 'Text': 'calendaires avant chaque échéance les factures à prélever.'}
+{'line_id': 165, 'Text': '10°) Contributions impôts et taxes'}
+{'line_id': 166, 'Text': "Le LOCATAIRE devra payer toutes quittances liées à l'usage de son fonds et notamment"}
+{'line_id': 167, 'Text': "d'eau, de gaz, d'électricité de manière que le BAILLEUR ne puisse jamais être"}
+{'line_id': 168, 'Text': 'recherché à ce sujet, ainsi que les taxes de toute nature le concernant'}
+{'line_id': 169, 'Text': 'personnellement ou relatives à son commerce, et rembourser au BAILLEUR toutes les'}
+{'line_id': 170, 'Text': 'taxes que celui-ci serait amené à payer relativement aux locaux loués.'}
+{'line_id': 171, 'Text': '11°) Assurances'}
+{'line_id': 172, 'Text': 'Dans le cadre du respect des obligations mises à sa charge par les présentes, le'}
+{'line_id': 173, 'Text': "LOCATAIRE devra s'assurer, pour des sommes suffisantes et auprès d'une compagnie"}
+{'line_id': 174, 'Text': "notoirement solvable, contre les risques d'incendie, d'explosion, dégâts des eaux et"}
+{'line_id': 175, 'Text': 'contre les risques de sa profession ainsi que les risques locatifs et le recours des'}
+{'line_id': 176, 'Text': 'voisins.'}
+{'line_id': 177, 'Text': 'En cas de sinistre, il devra en informer le BAILLEUR et la compagnie, dans le délai de 8'}
+{'line_id': 178, 'Text': 'JOURS.'}
+{'line_id': 179, 'Text': "A toute réquisition du BAILLEUR, il devra justifier du paiement des primes (s'il y a lieu"}
+{'line_id': 180, 'Text': 'et surprimes liées à la nature de son activité).'}
+{'line_id': 181, 'Text': '12°) Responsabilité et recours'}
+{'line_id': 182, 'Text': 'Le LOCATAIRE ne pourra en aucun cas tenir le BAILLEUR pour responsable de vols ou'}
+{'line_id': 183, 'Text': 'détériorations qui pourraient être commis chez lui et ne pourra lui réclamer aucune'}
+{'line_id': 184, 'Text': 'indemnité, ni diminution de loyer à ce titre.'}
+{'line_id': 185, 'Text': 'ARTICLE 7 : SANCTION DES OBLIGATIONS'}
+{'line_id': 186, 'Text': "En cas d'inexécution par le LOCATAIRE de l'une quelconque de ses obligations légales"}
+{'line_id': 187, 'Text': 'et/ou contractuelles résultant du présent bail et de ses éventuels renouvellements, et'}
+{'line_id': 188, 'Text': 'notamment en cas de défaut de paiement à son échéance exacte de toutes sommes'}
+{'line_id': 189, 'Text': 'dues tels le loyer et ses accessoires quelconques, et un mois après un simple'}
+{'line_id': 190, 'Text': "commandement de payer ou une sommation d'exécuter resté en tout ou en partie"}
+{'line_id': 191, 'Text': 'sans effet pendant ce délai, et contenant déclaration par le BAILLEUR de son intention'}
+{'line_id': 192, 'Text': "d'user du bénéfice de la présente clause, le bail sera résilié de plein droit et sans"}
+{'line_id': 193, 'Text': "formalité, et ce nonobstant paiement ou exécution postérieure à l'expiration du délai"}
+{'line_id': 194, 'Text': 'ci-dessus.'}
+{'line_id': 195, 'Text': 'ARTICLE 8 : CIRCULATION DU CONTRAT'}
+{'line_id': 196, 'Text': '1°) Substitution de contractant entre vifs'}
+{'line_id': 197, 'Text': 'Le LOCATAIRE ne peut céder son droit au bail sans autorisation écrite du BAILLEUR'}
+{'line_id': 198, 'Text': "sous peine de nullité de l'acte et résiliation immédiate de ce contrat avec paiement de"}
+{'line_id': 199, 'Text': "dommages intérêts au BAILLEUR, sauf lorsque le cessionnaire est l'acquéreur du fonds"}
+{'line_id': 200, 'Text': 'de commerce.'}
+{'line_id': 201, 'Text': 'Il devra signifier au BAILLEUR et à ses créanciers inscrits son intention de céder son'}
+{'line_id': 202, 'Text': 'bail.'}
+{'line_id': 203, 'Text': "Cette notification précisera le prix proposé, les nom et adresse de l'acquéreur et les"}
+{'line_id': 204, 'Text': 'lieux, jours et heures prévus pour la réalisation de cette cession.'}
+{'line_id': 205, 'Text': "Une copie de l'acte de cession devra être remise au BAILLEUR."}
+{'line_id': 206, 'Text': 'Le LOCATAIRE ne pourra vendre à un tiers à un prix inférieur à celui notifié au'}
+{'line_id': 207, 'Text': 'BAILLEUR.'}
+{'line_id': 208, 'Text': 'Le LOCATAIRE-cédant devra rester garant solidaire du nouveau LOCATAIRE, pour tout'}
+{'line_id': 209, 'Text': "ce qui concerne l'exécution des obligations nées de ce contrat."}
+{'line_id': 210, 'Text': "Ces stipulations s'appliquent en cas d'apport en société."}
+{'line_id': 211, 'Text': '2°) Sous-location location gérance'}
+{'line_id': 212, 'Text': 'Le LOCATAIRE ne pourra en aucun cas sans autorisation écrite du BAILLEUR, sous-'}
+{'line_id': 213, 'Text': 'louer les locaux objet du présent bail.'}
+{'line_id': 214, 'Text': 'Le bailleur autorise le preneur à mettre son fonds de commerce en location-gérance à'}
+{'line_id': 215, 'Text': "l'un de ses franchisés avec la possibilité pour le locataire-gérant de se domicilier dans"}
+{'line_id': 216, 'Text': "les lieux loués pour l'exercice de son activité."}
+{'line_id': 217, 'Text': 'ARTICLE 9 : CONDITION PARTICULIERE'}
+{'line_id': 218, 'Text': "Le LOCATAIRE s'engage à signer un contrat de sous-bail commercial avec le BAILLEUR,"}
+{'line_id': 219, 'Text': 'au cas où ce dernier revendrait les locaux objet du présent bail commercial.'}
+{'line_id': 220, 'Text': 'Il est entendu que le contrat de sous-bail commercial serait conclu aux mêmes'}
+{'line_id': 221, 'Text': 'conditions financières que le présent bail commercial.'}
+{'line_id': 222, 'Text': 'ARTICLE 10 : EXTINCTION DU CONTRAT'}
+{'line_id': 223, 'Text': '1°) Causes'}
+{'line_id': 224, 'Text': "Outre les hypothèses déjà considérées d'extinction du contrat, celui-ci pourra être"}
+{'line_id': 225, 'Text': "résilié à l'initiative du LOCATAIRE qui fera valoir ses droits à la retraite et le notifiera par"}
+{'line_id': 226, 'Text': 'acte extrajudiciaire, six mois avant son départ.'}
+{'line_id': 227, 'Text': "En fin de contrat ou en cas de rupture, quelle qu'en soit la cause, le LOCATAIRE devra"}
+{'line_id': 228, 'Text': 'rendre les lieux loués en bon état de toutes réparations locatives ou régler au'}
+{'line_id': 229, 'Text': 'BAILLEUR le coût de la remise en état ; celle-ci devra être achevée au jour de la remise'}
+{'line_id': 230, 'Text': 'des clefs. Si le LOCATAIRE refuse de quitter les locaux, il pourra y être contraint par'}
+{'line_id': 231, 'Text': 'ordonnance rendue par le Président du Tribunal de Grande Instance et il sera'}
+{'line_id': 232, 'Text': "redevable au BAILLEUR d'une indemnité d'occupation."}
+{'line_id': 233, 'Text': 'Le LOCATAIRE devra enlever le mobilier, mais après avoir justifié du paiement de'}
+{'line_id': 234, 'Text': 'toutes les taxes à sa charge et de tous les termes de son loyer.'}
+{'line_id': 235, 'Text': 'Un état des lieux contradictoire sera dressé lors de la remise des clefs.'}
+{'line_id': 236, 'Text': 'Le LOCATAIRE devra rendre les clefs des locaux au jour du déménagement. Leur'}
+{'line_id': 237, 'Text': "acceptation par le BAILLEUR ne portera pas atteinte à son droit d'exiger du LOCATAIRE"}
+{'line_id': 238, 'Text': 'le paiement des réparations dont celui-ci est normalement tenu.'}
+{'line_id': 239, 'Text': 'Les travaux et embellissements effectués par le LOCATAIRE dans les locaux mis à sa'}
+{'line_id': 240, 'Text': 'disposition restent la propriété du BAILLEUR sauf les équipements (tels que cloisons'}
+{'line_id': 241, 'Text': 'mobiles, etc ...) et matériels qui ne peuvent être considérés comme immeubles par'}
+{'line_id': 242, 'Text': 'destination.'}
+{'line_id': 243, 'Text': 'ARTICLE 11 : FRAIS - ENREGISTREMENT'}
+{'line_id': 244, 'Text': 'Le LOCATAIRE paiera tous les frais des présentes (droits de timbre, honoraires, frais'}
+{'line_id': 245, 'Text': "d'enregistrement) ainsi que ceux qui en seraient la suite ou la conséquence."}
+{'line_id': 246, 'Text': 'ARTICLE 12 : ELECTION DE DOMICILE'}
+{'line_id': 247, 'Text': "Pour l'exécution de ce contrat, le BAILLEUR élit domicile en son siège social et le"}
+{'line_id': 248, 'Text': 'LOCATAIRE dans les lieux loués.'}
+{'line_id': 249, 'Text': 'ARTICLE 13 : COMPETENCE'}
+{'line_id': 250, 'Text': "En cas de difficultés survenant pour l'interprétation et l'exécution du présent contrat,"}
+{'line_id': 251, 'Text': 'ou par suite de sa résiliation pour quelque cause que ce soit, même en cas de'}
+{'line_id': 252, 'Text': 'demande incidente ou en garantie, ou de pluralité de défendeurs, les Tribunaux de'}
+{'line_id': 253, 'Text': 'PARIS seront seuls compétents.'}
+{'line_id': 254, 'Text': 'Fait à Paris le 16 septembre 2025'}
+{'line_id': 255, 'Text': 'Pour le BAILLEUR,'}
+{'line_id': 256, 'Text': 'AEW Europe'}
+{'line_id': 257, 'Text': 'Monsieur Jean Dupont Directeur Général'}
+{'line_id': 258, 'Text': 'Pour le LOCATAIRE,'}
+{'line_id': 259, 'Text': 'Fayet'}
+{'line_id': 260, 'Text': 'Madame Sophie Dubois Présidente Directrice Générale'}

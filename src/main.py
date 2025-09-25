@@ -36,6 +36,7 @@ def extract_key_data_with_text(file, text):
 		json_schema = json.load(f)	
 	text_llm = extract_line(text)
 	response, usage = call_llm_text(f"You are a helpful assistant.", f"{text_llm}", "", json_schema, temperature=0.0)
+	print(response)
 	if isinstance(response, dict):
 		response['filename'] = file
 	df = pd.DataFrame([response])
@@ -66,14 +67,15 @@ def extract_key_data_with_pdf(file_path):
 def extract_line(text_ocr):
 	"""Extract lines from json text."""
 	results = []
+	i = 0
 	for item in text_ocr:
+		i += 1
 		results.append({
+                "line_id": i,
                 "Text": item['Text']
             })
-	print(f"Extracted {len(results)} lines from OCR text.")
 	plain_text = [item['Text'] for item in text_ocr]
 	plain_text = "\n".join(plain_text)
-	print(f"Extracted {len(plain_text.splitlines())} lines (plain text) from OCR text.")
 	return results
 
 def read_pdfs_in_s3(file):
@@ -103,6 +105,6 @@ if __name__ == "__main__":
 			   "Q241 BESANCON CHATEAUFARINE - 0709 ssbail commercial_biff.pdf",
 			   "Bail FQ - Saint Etienne_biff.pdf",
 			   "bail LA PLAINE_biff.pdf"]
-	list_files = ["fayet_bail_commercial.pdf"]
+	# list_files = ["fayet_bail_commercial.pdf"]
 	for file in list_files:
 		file_path = read_pdfs_in_s3(file)

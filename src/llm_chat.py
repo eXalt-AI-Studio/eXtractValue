@@ -15,10 +15,11 @@ def call_llm_chat(
     system_prompt: str,
     user_message: str,
     text: str,
-    model: str = "google/gemini-2.5-pro",
+    model: str = "google/gemini-2.5-flash_lite",
     temperature: float = 0.0,
-) -> Tuple[Dict, Dict]:
-    """Send a chat request with an attached text and return the JSON response with usage."""
+    stream: bool = False,
+):
+    """Send a chat request with an attached text and return the JSON response with usage. If stream=True, yield tokens as they arrive."""
 
     messages = [
         {"role": "system", "content": system_prompt},
@@ -40,17 +41,45 @@ def call_llm_chat(
         "model": model,
         "messages": messages,
         "temperature": temperature,
+        "stream": stream,
     }
 
-    response = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers=headers,
-        json=payload,
-    )
-
-    resp = response.json()
-    if response.status_code != 200:
-        raise RuntimeError(f"LLM request failed: {resp}")
-    json_response = content = resp["choices"][0]["message"]["content"]
-    usage = resp.get("usage", {})
-    return json_response, usage
+    if stream:
+        with requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers=headers,
+            json=payload,
+            stream=True,
+        ) as response:
+            if response.status_code != 200:
+                try:
+                    resp = response.json()
+                except Exception:
+                    resp = response.text
+                raise RuntimeError(f"LLM request failed: {resp}")
+            for line in response.iter_lines(decode_unicode=False):
+                if isinstance(line, bytes):
+                    line = line.decode("utf-8", errors="replace")
+                if line and line.startswith("data: "):
+                    data = line[len("data: "):]
+                    if data.strip() == "[DONE]":
+                        break
+                    try:
+                        chunk = json.loads(data)
+                        delta = chunk["choices"][0]["delta"].get("content", "")
+                        if delta:
+                            yield delta
+                    except Exception:
+                        continue
+    else:
+        response = requests.post(
+            "https://openrouter.ai/api/v1/chat/completions",
+            headers=headers,
+            json=payload,
+        )
+        resp = response.json()
+        if response.status_code != 200:
+            raise RuntimeError(f"LLM request failed: {resp}")
+        json_response = resp["choices"][0]["message"]["content"]
+        usage = resp.get("usage", {})
+        return json_response, usage

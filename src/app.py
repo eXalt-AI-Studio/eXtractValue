@@ -100,6 +100,39 @@ tab1, tab2, tab3, tab4 = st.tabs(tab_names)
 with tab1:
     col1, col2 = st.columns(2)
     with col1:
+        st.subheader("Contenu du PDF:")
+        if os.path.exists(f"data/{selected_file}"):
+            try:
+                doc = fitz.open(f"data/{selected_file}")
+                bbox_col1, bbox_col2 = st.columns([1, 2])
+                with bbox_col1:
+                    show_bbox = st.checkbox("Montrer la ligne source de la donnée", value=False, key=f"{selected_file}_bbox")
+                with bbox_col2:
+                    selected_col = st.selectbox("Sélectionner la donnée à rechercher:", columns_origin)
+                num_pages = doc.page_count
+                if show_bbox:
+                    page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1, disabled=True)
+                    page_number = int(filtered_df[f"{selected_col} Page"].iloc[0])
+                    bbox = ast.literal_eval(filtered_df[f"{selected_col} Geometry"].iloc[0])
+                    page = doc.load_page(page_number - 1)
+                    pix = page.get_pixmap()
+                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    x0 = int(bbox['Left'] * pix.width)
+                    y0 = int(bbox['Top'] * pix.height)
+                    x1 = int((bbox['Left'] + bbox['Width']) * pix.width)
+                    y1 = int((bbox['Top'] + bbox['Height']) * pix.height)
+                    draw = ImageDraw.Draw(img)
+                    draw.rectangle([x0, y0, x1, y1], outline="red", width=3)
+                    st.image(img, caption=f"PDF page {page_number} with bounding box")
+                else:
+                    page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1, disabled=False)
+                    page = doc.load_page(page_number - 1)
+                    pix = page.get_pixmap()
+                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    st.image(img, caption=f"PDF Page {page_number}", width='stretch')
+            except Exception as e:
+                st.error(f"Error displaying PDF: {e}")
+    with col2:
         st.subheader("Données Clées Extraites:")
         if not filtered_df.empty:
             for key in columns:
@@ -115,36 +148,6 @@ with tab1:
             )
         else:
             st.info("Aucune donnée extraite pour ce fichier.")
-    with col2:
-        st.subheader("Contenu du PDF:")
-        if os.path.exists(f"data/{selected_file}"):   
-            try:
-                doc = fitz.open(f"data/{selected_file}")
-                num_pages = doc.page_count
-                page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1) 
-                show_bbox = st.checkbox("Show bounding box", value=False, key=f"{selected_file}_{key}_bbox")
-                selected_col = st.selectbox("Sélectionner la donnée à rechercher:", columns_origin)
-                if show_bbox:
-                    page_number = int(filtered_df[f"{selected_col} Page"].iloc[0])
-                    bbox = ast.literal_eval(filtered_df[f"{selected_col} Geometry"].iloc[0])
-                    page = doc.load_page(page_number - 1)
-                    pix = page.get_pixmap()
-                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                    x0 = int(bbox['Left'] * pix.width)
-                    y0 = int(bbox['Top'] * pix.height)
-                    y0 = int(bbox['Top'] * pix.height)
-                    x1 = int((bbox['Left'] + bbox['Width']) * pix.width)
-                    y1 = int((bbox['Top'] + bbox['Height']) * pix.height)
-                    draw = ImageDraw.Draw(img)
-                    draw.rectangle([x0, y0, x1, y1], outline="red", width=3)
-                    st.image(img, caption=f"PDF page {page_number} with bounding box")
-                else:
-                    page = doc.load_page(page_number - 1)
-                    pix = page.get_pixmap()
-                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                    st.image(img, caption=f"PDF Page {page_number}", width='stretch')
-            except Exception as e:
-                st.error(f"Error displaying PDF: {e}")
 
 with tab2:
     col1, col2 = st.columns(2)
@@ -162,30 +165,36 @@ with tab2:
         st.subheader("Saisir une question :")
         user_question = st.text_area("Votre question :", value="Quelles sont les clauses qui peuvent poser problème juridiquement ?", height=80)
         if st.button("Envoyer la question"):
-            response, usage = call_llm_chat(
+            # Streaming response
+            stream_response = call_llm_chat(
                 "You are a helpful assistant.",
                 user_question,
                 text_content,
-                temperature=0.0
+                temperature=0.0,
+                stream=True
             )
-            st.write(response)
+            response_text = ""
+            response_placeholder = st.empty()
+            for chunk in stream_response:
+                response_text += chunk
+                response_placeholder.markdown(response_text)
 
 with tab3:
     col1, col2 = st.columns(2)
     if not filtered_df.empty:
         annual_rents = get_annual_rents(filtered_df)
+    else:
+        annual_rents = pd.DataFrame()
     with col1:
         st.subheader("Echéancier des loyers minimaux :")
-        if not annual_rents.empty:
-            st.dataframe(annual_rents)
+        st.dataframe(annual_rents)
     with col2:
         st.subheader("Visualisation des loyers minimaux :")
-        if not annual_rents.empty:
-            chart_data = annual_rents.copy()
-            year_col = 'Year' if 'Year' in chart_data.columns else 'Année'
-            rent_col = 'Expected Rent (€)' if 'Expected Rent (€)' in chart_data.columns else 'Loyer attendu (€)'
-            if year_col in chart_data.columns and rent_col in chart_data.columns:
-                st.bar_chart(data=chart_data, x=year_col, y=rent_col, use_container_width=True)
+        chart_data = annual_rents.copy()
+        year_col = 'Year' if 'Year' in chart_data.columns else 'Année'
+        rent_col = 'Expected Rent (€)' if 'Expected Rent (€)' in chart_data.columns else 'Loyer attendu (€)'
+        if year_col in chart_data.columns and rent_col in chart_data.columns:
+            st.bar_chart(data=chart_data, x=year_col, y=rent_col, use_container_width=True)
 
 with tab4:
     st.subheader("Chronologie :")
