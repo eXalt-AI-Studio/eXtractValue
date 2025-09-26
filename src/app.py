@@ -6,6 +6,38 @@ from annual_rent import get_annual_rents
 from llm_chat import call_llm_chat
 from dotenv import load_dotenv
 import plotly.graph_objects as go
+from PIL import Image, ImageDraw
+import ast
+
+columns = ["Bailleur",
+           "Locataire",
+           "Loyer annuel (euros)",
+           "Durée (années)",
+           "Date de début",
+           "Adresse location",
+           "Charges (euros)",
+           "Code Postal location",
+           "Date d'expiration",
+           "Date de signature du bail",
+           "Indice de référence pour l'indexation du loyer",
+           "Résumé",
+           "Ville location"
+           ]
+
+
+columns_origin = ["Bailleur",
+           "Locataire",
+           "Loyer annuel (euros)",
+           "Durée (années)",
+           "Date de début",
+           "Adresse location",
+           "Charges (euros)",
+           "Code Postal location",
+           "Date d'expiration",
+           "Date de signature du bail",
+           "Indice de référence pour l'indexation du loyer",
+           "Ville location"
+           ]
 
 load_dotenv()
 OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY")
@@ -13,7 +45,7 @@ if not OPENROUTER_API_KEY:
     raise ValueError("Missing OPENROUTER_API_KEY")
 
 # Load data from CSV
-df = pd.read_csv('output/output_text.csv')
+df = pd.read_csv('output/block-output_text.csv')
 
 list_files = ["fayet_bail_commercial.pdf",
             "Q448 ANTIBES - 0707 Bail_biff.pdf",
@@ -69,23 +101,44 @@ with tab1:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Contenu du PDF:")
-        if os.path.exists(f"data/{selected_file}"):   
+        if os.path.exists(f"data/{selected_file}"):
             try:
                 doc = fitz.open(f"data/{selected_file}")
-                for page_num in range(len(doc)):
-                    page = doc.load_page(page_num)
+                bbox_col1, bbox_col2 = st.columns([1, 2])
+                with bbox_col1:
+                    show_bbox = st.checkbox("Montrer la ligne source de la donnée", value=False, key=f"{selected_file}_bbox")
+                with bbox_col2:
+                    selected_col = st.selectbox("Sélectionner la donnée à rechercher:", columns_origin)
+                num_pages = doc.page_count
+                if show_bbox:
+                    page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1, disabled=True)
+                    page_number = int(filtered_df[f"{selected_col} Page"].iloc[0])
+                    bbox = ast.literal_eval(filtered_df[f"{selected_col} Geometry"].iloc[0])
+                    page = doc.load_page(page_number - 1)
                     pix = page.get_pixmap()
-                    st.image(pix.tobytes(), caption=f"Page {page_num+1}", width='stretch')
+                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    x0 = int(bbox['Left'] * pix.width)
+                    y0 = int(bbox['Top'] * pix.height)
+                    x1 = int((bbox['Left'] + bbox['Width']) * pix.width)
+                    y1 = int((bbox['Top'] + bbox['Height']) * pix.height)
+                    draw = ImageDraw.Draw(img)
+                    draw.rectangle([x0, y0, x1, y1], outline="red", width=3)
+                    st.image(img, caption=f"PDF page {page_number} with bounding box")
+                else:
+                    page_number = st.number_input("Page number", min_value=1, max_value=num_pages, value=1, step=1, disabled=False)
+                    page = doc.load_page(page_number - 1)
+                    pix = page.get_pixmap()
+                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                    st.image(img, caption=f"PDF Page {page_number}", width='stretch')
             except Exception as e:
                 st.error(f"Error displaying PDF: {e}")
     with col2:
         st.subheader("Données Clées Extraites:")
         if not filtered_df.empty:
-            record = filtered_df.iloc[0].to_dict()
-            for key, value in record.items():
+            for key in columns:
                 if key == 'filename':
                     continue
-                st.text_input(label=key, value=str(value), key=f"{selected_file}_{key}")
+                st.text_input(label=key, value=str(filtered_df[key].iloc[0]), key=f"{selected_file}_{key}")
             csv = filtered_df.to_csv(index=False).encode('utf-8')
             st.download_button(
                 label="Télécharger les données extraites en CSV",
@@ -112,30 +165,36 @@ with tab2:
         st.subheader("Saisir une question :")
         user_question = st.text_area("Votre question :", value="Quelles sont les clauses qui peuvent poser problème juridiquement ?", height=80)
         if st.button("Envoyer la question"):
-            response, usage = call_llm_chat(
+            # Streaming response
+            stream_response = call_llm_chat(
                 "You are a helpful assistant.",
                 user_question,
                 text_content,
-                temperature=0.0
+                temperature=0.0,
+                stream=True
             )
-            st.write(response)
+            response_text = ""
+            response_placeholder = st.empty()
+            for chunk in stream_response:
+                response_text += chunk
+                response_placeholder.markdown(response_text)
 
 with tab3:
     col1, col2 = st.columns(2)
     if not filtered_df.empty:
         annual_rents = get_annual_rents(filtered_df)
+    else:
+        annual_rents = pd.DataFrame()
     with col1:
         st.subheader("Echéancier des loyers minimaux :")
-        if not annual_rents.empty:
-            st.dataframe(annual_rents)
+        st.dataframe(annual_rents)
     with col2:
         st.subheader("Visualisation des loyers minimaux :")
-        if not annual_rents.empty:
-            chart_data = annual_rents.copy()
-            year_col = 'Year' if 'Year' in chart_data.columns else 'Année'
-            rent_col = 'Expected Rent (€)' if 'Expected Rent (€)' in chart_data.columns else 'Loyer attendu (€)'
-            if year_col in chart_data.columns and rent_col in chart_data.columns:
-                st.bar_chart(data=chart_data, x=year_col, y=rent_col, use_container_width=True)
+        chart_data = annual_rents.copy()
+        year_col = 'Year' if 'Year' in chart_data.columns else 'Année'
+        rent_col = 'Expected Rent (€)' if 'Expected Rent (€)' in chart_data.columns else 'Loyer attendu (€)'
+        if year_col in chart_data.columns and rent_col in chart_data.columns:
+            st.bar_chart(data=chart_data, x=year_col, y=rent_col, use_container_width=True)
 
 with tab4:
     st.subheader("Chronologie :")

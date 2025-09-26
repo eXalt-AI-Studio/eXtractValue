@@ -25,10 +25,9 @@ Write the Open Router password in the .env file (OPENROUTER_API_KEY)
 - aws sso login --profile AdministratorAccess-004843573718 (log in AWS)
 - python src/main.py
 
-
 ## Docker
 
-### Launch container
+### Launch container on the server
 * Copy ``docker-compose.yml`` where you want
 * Go in folder where ``docker-compose.yml`` file was copied
 * Execute following command line :

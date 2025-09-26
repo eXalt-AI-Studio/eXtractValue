@@ -1,0 +1,177 @@
+{
+    "type": "object",
+    "properties": {
+        "Bailleur": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Locataire": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Loyer annuel (euros)": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "number"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Charges (euros)": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Adresse location": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Code Postal location": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "number"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Ville location": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Date de début": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Date d'expiration": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Durée (années)": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "integer"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Date de signature du bail": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Indice de référence pour l'indexation du loyer": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string",
+                    "format": "date"
+                },
+                "line_id": {
+                    "type": "integer"
+                }
+            },
+            "required": ["value", "line_id"],
+            "additionalProperties": false
+        },
+        "Résumé": {
+            "type": "string",
+            "maxLength": 250
+        }
+    },
+    "required": [
+        "Bailleur",
+        "Locataire",
+        "Loyer annuel (euros)",
+        "Durée (années)",
+        "Date de début"
+    ],
+    "additionalProperties": false
+}

@@ -1,10 +1,12 @@
 
 import boto3
 import time
+import os
 
 def extract_plain_text_from_pdf_async(document):
 
-    session = boto3.Session(profile_name="AdministratorAccess-004843573718")
+    profile = os.environ.get("AWS_PROFILE", "default")
+    session = boto3.Session(profile_name=profile)
     client = session.client('textract')
     bucket = "extract-value"
 
@@ -39,14 +41,25 @@ def extract_plain_text_from_pdf_async(document):
         next_token = result.get('NextToken', None)
 
     # Extract lines
+    # lines = []
+    # for block in blocks:
+    #     if block['BlockType'] == 'LINE':
+    #         lines.append(block['Text'])
+    # plain_text = '\n'.join(lines)
+
+    import json
     lines = []
     for block in blocks:
         if block['BlockType'] == 'LINE':
-            lines.append(block['Text'])
-    plain_text = '\n'.join(lines)
-    print('--- Extracted Plain Text ---')
-    print(plain_text)
-    return plain_text
+            lines.append({
+                "Id": block['Id'],
+                "Text": block['Text'],
+                "Geometry": block['Geometry'],
+                "Page": block['Page'],
+                "Confidence": block['Confidence']
+            })
+            
+    return lines
 
 def main():
     document = "fayet_bail_commercial.pdf"
