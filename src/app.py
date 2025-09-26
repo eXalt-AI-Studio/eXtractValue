@@ -117,10 +117,10 @@ with tab1:
                     page = doc.load_page(page_number - 1)
                     pix = page.get_pixmap()
                     img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                    x0 = int(bbox['Left'] * pix.width)
-                    y0 = int(bbox['Top'] * pix.height)
-                    x1 = int((bbox['Left'] + bbox['Width']) * pix.width)
-                    y1 = int((bbox['Top'] + bbox['Height']) * pix.height)
+                    x0 = int(bbox['Left'] * pix.width - 5)
+                    y0 = int(bbox['Top'] * pix.height - 5)
+                    x1 = int((bbox['Left'] + bbox['Width']) * pix.width + 5)
+                    y1 = int((bbox['Top'] + bbox['Height']) * pix.height + 5)
                     draw = ImageDraw.Draw(img)
                     draw.rectangle([x0, y0, x1, y1], outline="red", width=3)
                     st.image(img, caption=f"PDF page {page_number} with bounding box")
@@ -129,7 +129,7 @@ with tab1:
                     page = doc.load_page(page_number - 1)
                     pix = page.get_pixmap()
                     img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                    st.image(img, caption=f"PDF Page {page_number}", width='stretch')
+                    st.image(img, caption=f"PDF Page {page_number}")
             except Exception as e:
                 st.error(f"Error displaying PDF: {e}")
     with col2:
